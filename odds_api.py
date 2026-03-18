@@ -29,6 +29,48 @@ PREFERRED_BOOKS = [
     "pointsbetus", "bovada", "betonlineag"
 ]
 
+# 2026 NCAA Tournament teams — used to filter out NIT/CBI games
+NCAA_TOURNEY_TEAMS = {
+    "Duke Blue Devils", "Alabama Crimson Tide", "Wisconsin Badgers", "Arizona Wildcats",
+    "Oregon Ducks", "BYU Cougars", "Illinois Fighting Illini", "Mississippi St Bulldogs",
+    "Baylor Bears", "Vanderbilt Commodores", "Texas Longhorns", "Liberty Flames",
+    "Akron Zips", "Montana Grizzlies", "American Eagles", "UCLA Bruins",
+    "Auburn Tigers", "Michigan St Spartans", "Michigan Wolverines", "Texas A&M Aggies",
+    "Ole Miss Rebels", "Iowa State Cyclones", "St. John's Red Storm", "Louisville Cardinals",
+    "Creighton Bluejays", "North Carolina Tar Heels", "UC San Diego Tritons", "Yale Bulldogs",
+    "Lipscomb Bisons", "Bryant Bulldogs", "Alabama St Hornets",
+    "Houston Cougars", "Tennessee Volunteers", "Gonzaga Bulldogs", "Purdue Boilermakers",
+    "Clemson Tigers", "Marquette Golden Eagles", "Kansas St Wildcats", "Georgia Bulldogs",
+    "McNeese Cowboys", "VCU Rams", "Butler Bulldogs", "High Point Panthers",
+    "New Mexico St Aggies", "Wofford Terriers", "SIU Edwardsville Cougars",
+    "Florida Gators", "Texas Tech Red Raiders", "Maryland Terrapins",
+    "Memphis Tigers", "Missouri Tigers", "Kansas Jayhawks", "UConn Huskies",
+    "Oklahoma Sooners", "Drake Bulldogs", "Arkansas Razorbacks", "Colorado St Rams",
+    "Grand Canyon Antelopes", "UNC Wilmington Seahawks", "Nebraska Omaha Mavericks",
+    "Norfolk St Spartans",
+    # First Four / play-in / additional
+    "San Diego St Aztecs", "Virginia Cavaliers", "Idaho Vandals", "Furman Paladins",
+    "Santa Clara Broncos", "Hofstra Pride", "Queens University Royals", "Cal Baptist Lancers",
+    "Wright St Raiders", "Tennessee St Tigers", "Utah State Aggies", "Villanova Wildcats",
+    "Iowa Hawkeyes", "Northern Iowa Panthers", "UCF Knights", "LIU Sharks",
+    "Kennesaw St Owls", "Howard Bison", "Siena Saints", "Troy Trojans",
+    "Pennsylvania Quakers", "North Dakota St Bison", "Hawai'i Rainbow Warriors",
+    "South Florida Bulls", "Saint Louis Billikens", "Miami (OH) RedHawks",
+    "Murray St Racers", "Kentucky Wildcats",
+}
+
+
+def is_tourney_game(away: str, home: str) -> bool:
+    """Check if at least one team is in the NCAA Tournament field."""
+    if away in NCAA_TOURNEY_TEAMS or home in NCAA_TOURNEY_TEAMS:
+        return True
+    # Partial match fallback
+    for team in NCAA_TOURNEY_TEAMS:
+        short = team.split()[0]
+        if len(short) > 3 and (short in away or short in home):
+            return True
+    return False
+
 
 def get_api_key() -> str:
     """Get API key from environment or prompt."""
@@ -198,6 +240,18 @@ def get_tournament_games(api_key: str = None) -> pd.DataFrame:
     raw = fetch_live_odds(api_key)
     if raw.empty:
         return raw
+
+    # Filter to NCAA Tournament games only
+    total_before = len(raw)
+    tourney_mask = raw.apply(
+        lambda r: is_tourney_game(r.get("away_team", ""), r.get("home_team", "")),
+        axis=1,
+    )
+    filtered_count = (~tourney_mask).sum()
+    raw = raw[tourney_mask]
+    if filtered_count > 0:
+        print(f"Filtered out {filtered_count} non-tournament games (NIT/CBI/etc.)")
+    print(f"NCAA Tournament games: {len(raw)}")
 
     # Build clean summary
     summary = []
