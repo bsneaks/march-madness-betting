@@ -388,6 +388,124 @@ def find_value_bets(live_odds: pd.DataFrame, historical_df: pd.DataFrame,
     return value_bets
 
 
+def fetch_first_half_odds(api_key: str = None, regions: str = "us") -> pd.DataFrame:
+    """
+    Fetch first-half spreads, totals, and moneylines for all NCAAB games.
+    Uses per-event endpoint since 1H markets aren't on the bulk endpoint.
+
+    Note: Each event costs 1 API request. Use judiciously.
+    """
+    if api_key is None:
+        api_key = get_api_key()
+
+    # Step 1: Get all event IDs
+    events_resp = requests.get(
+        f"{BASE_URL}/{SPORT}/events",
+        params={"apiKey": api_key},
+        timeout=30,
+    )
+    if events_resp.status_code != 200:
+        raise Exception(f"Events API error: {events_resp.status_code}")
+
+    events = events_resp.json()
+    remaining = int(events_resp.headers.get("x-requests-remaining", 500))
+    print(f"Found {len(events)} events. API requests remaining: {remaining}")
+
+    if remaining < len(events) + 10:
+        print(f"WARNING: Only {remaining} requests left, need {len(events)}. Limiting to {remaining - 10} games.")
+        events = events[:max(0, remaining - 10)]
+
+    games = []
+    for i, event in enumerate(events):
+        event_id = event["id"]
+        resp = requests.get(
+            f"{BASE_URL}/{SPORT}/events/{event_id}/odds",
+            params={
+                "apiKey": api_key,
+                "regions": regions,
+                "markets": "h2h_h1,spreads_h1,totals_h1",
+                "oddsFormat": "american",
+            },
+            timeout=30,
+        )
+
+        if resp.status_code != 200:
+            continue
+
+        data = resp.json()
+        game = {
+            "game_id": event_id,
+            "away_team": data.get("away_team", event.get("away_team", "")),
+            "home_team": data.get("home_team", event.get("home_team", "")),
+            "commence_time": data.get("commence_time", event.get("commence_time", "")),
+        }
+
+        h1_spreads_away, h1_spreads_home = [], []
+        h1_totals = []
+        h1_ml_home, h1_ml_away = [], []
+
+        for book in data.get("bookmakers", []):
+            bk = book["key"]
+            for mkt in book.get("markets", []):
+                if mkt["key"] == "spreads_h1":
+                    for o in mkt["outcomes"]:
+                        if o["name"] == data.get("home_team", ""):
+                            h1_spreads_home.append(o.get("point", 0))
+                        else:
+                            h1_spreads_away.append(o.get("point", 0))
+                elif mkt["key"] == "totals_h1":
+                    for o in mkt["outcomes"]:
+                        if o["name"] == "Over":
+                            h1_totals.append(o.get("point", 0))
+                elif mkt["key"] == "h2h_h1":
+                    for o in mkt["outcomes"]:
+                        if o["name"] == data.get("home_team", ""):
+                            h1_ml_home.append(o.get("price", 0))
+                        else:
+                            h1_ml_away.append(o.get("price", 0))
+
+        if h1_spreads_away:
+            game["h1_away_spread"] = round(np.mean(h1_spreads_away), 1)
+        if h1_spreads_home:
+            game["h1_home_spread"] = round(np.mean(h1_spreads_home), 1)
+        if h1_totals:
+            game["h1_total"] = round(np.mean(h1_totals), 1)
+        if h1_ml_home:
+            game["h1_home_ml"] = round(np.mean(h1_ml_home))
+        if h1_ml_away:
+            game["h1_away_ml"] = round(np.mean(h1_ml_away))
+
+        # Determine 1H favorite
+        if h1_spreads_away and h1_spreads_home:
+            if np.mean(h1_spreads_away) < 0:
+                game["h1_favorite"] = game["away_team"]
+                game["h1_underdog"] = game["home_team"]
+                game["h1_spread"] = game["h1_away_spread"]
+            else:
+                game["h1_favorite"] = game["home_team"]
+                game["h1_underdog"] = game["away_team"]
+                game["h1_spread"] = game["h1_home_spread"]
+
+        games.append(game)
+
+        if (i + 1) % 10 == 0:
+            rem = resp.headers.get("x-requests-remaining", "?")
+            print(f"  Fetched {i+1}/{len(events)} games... (remaining: {rem})")
+
+    df = pd.DataFrame(games)
+    remaining = resp.headers.get("x-requests-remaining", "?") if events else "?"
+    print(f"\nFetched 1H odds for {len(df)} games. API requests remaining: {remaining}")
+
+    # Save
+    output_path = os.path.join(DATA_DIR, "live_odds_1h.csv")
+    df.to_csv(output_path, index=False)
+
+    return df
+
+
+import numpy as np  # needed for 1H averaging
+
+
 if __name__ == "__main__":
     import sys
 
