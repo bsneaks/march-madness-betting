@@ -357,18 +357,20 @@ def print_real_vs_estimated(merged_df: pd.DataFrame):
 
     # ATS comparison
     est_dog_cover = 1 - has_real["favorite_covered"].mean()
-    real_dog_cover = has_real["real_dog_covered"].mean()
+    real_dog_cover = has_real["real_dog_covered"].sum() / len(has_real)
     print(f"\nUnderdog ATS cover rate:")
     print(f"  Estimated spreads: {est_dog_cover:.1%}")
     print(f"  Real Vegas lines:  {real_dog_cover:.1%}")
 
     # Totals comparison
-    if "went_over" in has_real.columns:
-        over_rate = has_real["went_over"].mean()
-        under_rate = has_real["went_under"].mean()
-        print(f"\nOver/Under rates (real lines):")
-        print(f"  Over:  {over_rate:.1%}")
-        print(f"  Under: {under_rate:.1%}")
+    has_total = has_real[has_real["real_total_line"].notna()]
+    if "went_over" in has_total.columns and len(has_total) > 0:
+        over_count = has_total["went_over"].sum()
+        under_count = has_total["went_under"].sum()
+        print(f"\nOver/Under rates (real lines, {len(has_total)} games):")
+        print(f"  Over:  {over_count}/{len(has_total)} = {over_count/len(has_total):.1%}")
+        print(f"  Under: {under_count}/{len(has_total)} = {under_count/len(has_total):.1%}")
+        print(f"  >>> UNDERS are hitting {under_count/len(has_total):.0%} — major edge")
 
     # Average spread comparison
     print(f"\nAverage spread:")
