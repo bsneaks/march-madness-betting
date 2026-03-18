@@ -1,0 +1,7 @@
+data/.odds_api_key
+data/live_odds.csv
+data/live_odds_raw.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+march_madness_betting_executed.ipynb

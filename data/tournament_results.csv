@@ -1,0 +1,538 @@
+year,round_num,round_name,team1,seed1,score1,team2,seed2,score2,winner,winner_seed,loser,loser_seed,favorite,favorite_seed,favorite_score,underdog,underdog_seed,underdog_score,total_points,actual_margin,seed_diff,estimated_spread,favorite_covered,upset,matchup
+2016,1,First Round,Kansas,1,105,Austin Peay,16,79,Kansas,1,Austin Peay,16,Kansas,1,105,Austin Peay,16,79,184,26,15,26.0,False,False,1v16
+2016,1,First Round,Colorado,8,56,Connecticut,9,74,Connecticut,9,Colorado,8,Colorado,8,56,Connecticut,9,74,130,-18,1,1.5,False,True,8v9
+2016,1,First Round,Maryland,5,79,South Dakota St,12,74,Maryland,5,South Dakota St,12,Maryland,5,79,South Dakota St,12,74,153,5,7,10.5,False,False,5v12
+2016,1,First Round,California,4,55,Hawaii,13,77,Hawaii,13,California,4,California,4,55,Hawaii,13,77,132,-22,9,14.0,False,True,4v13
+2016,1,First Round,Arizona,6,69,Wichita St,11,65,Arizona,6,Wichita St,11,Arizona,6,69,Wichita St,11,65,134,4,5,7.5,False,False,6v11
+2016,1,First Round,Miami FL,3,79,Buffalo,14,72,Miami FL,3,Buffalo,14,Miami FL,3,79,Buffalo,14,72,151,7,11,18.0,False,False,3v14
+2016,1,First Round,Iowa,7,68,Temple,10,72,Temple,10,Iowa,7,Iowa,7,68,Temple,10,72,140,-4,3,4.5,False,True,7v10
+2016,1,First Round,Villanova,2,86,UNC Asheville,15,56,Villanova,2,UNC Asheville,15,Villanova,2,86,UNC Asheville,15,56,142,30,13,22.0,True,False,2v15
+2016,1,First Round,Oregon,1,91,Holy Cross,16,52,Oregon,1,Holy Cross,16,Oregon,1,91,Holy Cross,16,52,143,39,15,26.0,True,False,1v16
+2016,1,First Round,Saint Joseph's,8,78,Cincinnati,9,76,Saint Joseph's,8,Cincinnati,9,Saint Joseph's,8,78,Cincinnati,9,76,154,2,1,1.5,True,False,8v9
+2016,1,First Round,Baylor,5,68,Yale,12,79,Yale,12,Baylor,5,Baylor,5,68,Yale,12,79,147,-11,7,10.5,False,True,5v12
+2016,1,First Round,Duke,4,93,UNC Wilmington,13,85,Duke,4,UNC Wilmington,13,Duke,4,93,UNC Wilmington,13,85,178,8,9,14.0,False,False,4v13
+2016,1,First Round,Texas,6,56,Northern Iowa,11,75,Northern Iowa,11,Texas,6,Texas,6,56,Northern Iowa,11,75,131,-19,5,7.5,False,True,6v11
+2016,1,First Round,Texas A&M,3,92,Green Bay,14,65,Texas A&M,3,Green Bay,14,Texas A&M,3,92,Green Bay,14,65,157,27,11,18.0,True,False,3v14
+2016,1,First Round,Oregon St,7,58,VCU,10,75,VCU,10,Oregon St,7,Oregon St,7,58,VCU,10,75,133,-17,3,4.5,False,True,7v10
+2016,1,First Round,Oklahoma,2,82,CSU Bakersfield,15,68,Oklahoma,2,CSU Bakersfield,15,Oklahoma,2,82,CSU Bakersfield,15,68,150,14,13,22.0,False,False,2v15
+2016,1,First Round,North Carolina,1,83,FGCU,16,67,North Carolina,1,FGCU,16,North Carolina,1,83,FGCU,16,67,150,16,15,26.0,False,False,1v16
+2016,1,First Round,USC,8,66,Providence,9,70,Providence,9,USC,8,USC,8,66,Providence,9,70,136,-4,1,1.5,False,True,8v9
+2016,1,First Round,Indiana,5,99,Chattanooga,12,74,Indiana,5,Chattanooga,12,Indiana,5,99,Chattanooga,12,74,173,25,7,10.5,True,False,5v12
+2016,1,First Round,Kentucky,4,85,Stony Brook,13,57,Kentucky,4,Stony Brook,13,Kentucky,4,85,Stony Brook,13,57,142,28,9,14.0,True,False,4v13
+2016,1,First Round,Notre Dame,6,70,Michigan,11,63,Notre Dame,6,Michigan,11,Notre Dame,6,70,Michigan,11,63,133,7,5,7.5,False,False,6v11
+2016,1,First Round,West Virginia,3,56,Stephen F. Austin,14,70,Stephen F. Austin,14,West Virginia,3,West Virginia,3,56,Stephen F. Austin,14,70,126,-14,11,18.0,False,True,3v14
+2016,1,First Round,Wisconsin,7,47,Pittsburgh,10,43,Wisconsin,7,Pittsburgh,10,Wisconsin,7,47,Pittsburgh,10,43,90,4,3,4.5,False,False,7v10
+2016,1,First Round,Xavier,2,71,Weber St,15,53,Xavier,2,Weber St,15,Xavier,2,71,Weber St,15,53,124,18,13,22.0,False,False,2v15
+2016,1,First Round,Virginia,1,81,Hampton,16,45,Virginia,1,Hampton,16,Virginia,1,81,Hampton,16,45,126,36,15,26.0,True,False,1v16
+2016,1,First Round,Texas Tech,8,65,Butler,9,71,Butler,9,Texas Tech,8,Texas Tech,8,65,Butler,9,71,136,-6,1,1.5,False,True,8v9
+2016,1,First Round,Purdue,5,83,Little Rock,12,85,Little Rock,12,Purdue,5,Purdue,5,83,Little Rock,12,85,168,-2,7,10.5,False,True,5v12
+2016,1,First Round,Iowa St,4,94,Iona,13,81,Iowa St,4,Iona,13,Iowa St,4,94,Iona,13,81,175,13,9,14.0,False,False,4v13
+2016,1,First Round,Seton Hall,6,52,Gonzaga,11,68,Gonzaga,11,Seton Hall,6,Seton Hall,6,52,Gonzaga,11,68,120,-16,5,7.5,False,True,6v11
+2016,1,First Round,Utah,3,80,Fresno St,14,69,Utah,3,Fresno St,14,Utah,3,80,Fresno St,14,69,149,11,11,18.0,False,False,3v14
+2016,1,First Round,Dayton,7,51,Syracuse,10,70,Syracuse,10,Dayton,7,Dayton,7,51,Syracuse,10,70,121,-19,3,4.5,False,True,7v10
+2016,1,First Round,Michigan St,2,90,Middle Tennessee,15,81,Michigan St,2,Middle Tennessee,15,Michigan St,2,90,Middle Tennessee,15,81,171,9,13,22.0,False,False,2v15
+2016,2,Second Round,Connecticut,9,73,Maryland,5,58,Connecticut,9,Maryland,5,Maryland,5,58,Connecticut,9,73,131,-15,4,6.0,False,True,5v9
+2016,2,Second Round,Hawaii,13,65,Arizona,6,73,Arizona,6,Hawaii,13,Arizona,6,73,Hawaii,13,65,138,8,7,10.5,False,False,6v13
+2016,2,Second Round,Miami FL,3,65,Temple,10,55,Miami FL,3,Temple,10,Miami FL,3,65,Temple,10,55,120,10,7,10.5,False,False,3v10
+2016,2,Second Round,Villanova,2,92,Iowa,7,69,Villanova,2,Iowa,7,Villanova,2,92,Iowa,7,69,161,23,5,7.5,True,False,2v7
+2016,2,Second Round,Kansas,1,90,Connecticut,8,73,Kansas,1,Connecticut,8,Kansas,1,90,Connecticut,8,73,163,17,7,10.5,True,False,1v8
+2016,2,Second Round,Oregon,1,69,Saint Joseph's,8,64,Oregon,1,Saint Joseph's,8,Oregon,1,69,Saint Joseph's,8,64,133,5,7,10.5,False,False,1v8
+2016,2,Second Round,Yale,12,49,Duke,4,71,Duke,4,Yale,12,Duke,4,71,Yale,12,49,120,22,8,12.0,True,False,4v12
+2016,2,Second Round,Northern Iowa,11,53,Texas A&M,3,92,Texas A&M,3,Northern Iowa,11,Texas A&M,3,92,Northern Iowa,11,53,145,39,8,12.0,True,False,3v11
+2016,2,Second Round,VCU,10,71,Oklahoma,2,85,Oklahoma,2,VCU,10,Oklahoma,2,85,VCU,10,71,156,14,8,12.0,True,False,2v10
+2016,2,Second Round,North Carolina,1,85,Providence,9,66,North Carolina,1,Providence,9,North Carolina,1,85,Providence,9,66,151,19,8,12.0,True,False,1v9
+2016,2,Second Round,Indiana,5,73,Kentucky,4,67,Indiana,5,Kentucky,4,Kentucky,4,67,Indiana,5,73,140,-6,1,1.5,False,True,4v5
+2016,2,Second Round,Notre Dame,6,76,Stephen F. Austin,14,75,Notre Dame,6,Stephen F. Austin,14,Notre Dame,6,76,Stephen F. Austin,14,75,151,1,8,12.0,False,False,6v14
+2016,2,Second Round,Wisconsin,7,65,Xavier,2,66,Xavier,2,Wisconsin,7,Xavier,2,66,Wisconsin,7,65,131,1,5,7.5,False,False,2v7
+2016,2,Second Round,Virginia,1,77,Butler,9,69,Virginia,1,Butler,9,Virginia,1,77,Butler,9,69,146,8,8,12.0,False,False,1v9
+2016,2,Second Round,Little Rock,12,65,Iowa St,4,78,Iowa St,4,Little Rock,12,Iowa St,4,78,Little Rock,12,65,143,13,8,12.0,True,False,4v12
+2016,2,Second Round,Gonzaga,11,82,Utah,3,59,Gonzaga,11,Utah,3,Utah,3,59,Gonzaga,11,82,141,-23,8,12.0,False,True,3v11
+2016,2,Second Round,Syracuse,10,75,Middle Tennessee,15,50,Syracuse,10,Middle Tennessee,15,Syracuse,10,75,Middle Tennessee,15,50,125,25,5,7.5,True,False,10v15
+2016,3,Sweet 16,Kansas,1,73,Arizona,6,77,Arizona,6,Kansas,1,Kansas,1,73,Arizona,6,77,150,-4,5,7.5,False,True,1v6
+2016,3,Sweet 16,Miami FL,3,73,Villanova,2,92,Villanova,2,Miami FL,3,Villanova,2,92,Miami FL,3,73,165,19,1,1.5,True,False,2v3
+2016,3,Sweet 16,Oregon,1,77,Duke,4,68,Oregon,1,Duke,4,Oregon,1,77,Duke,4,68,145,9,3,4.5,True,False,1v4
+2016,3,Sweet 16,Texas A&M,3,77,Oklahoma,2,63,Texas A&M,3,Oklahoma,2,Oklahoma,2,63,Texas A&M,3,77,140,-14,1,1.5,False,True,2v3
+2016,3,Sweet 16,North Carolina,1,101,Indiana,5,86,North Carolina,1,Indiana,5,North Carolina,1,101,Indiana,5,86,187,15,4,6.0,True,False,1v5
+2016,3,Sweet 16,Notre Dame,6,61,Xavier,2,55,Notre Dame,6,Xavier,2,Xavier,2,55,Notre Dame,6,61,116,-6,4,6.0,False,True,2v6
+2016,3,Sweet 16,Virginia,1,57,Iowa St,4,84,Iowa St,4,Virginia,1,Virginia,1,57,Iowa St,4,84,141,-27,3,4.5,False,True,1v4
+2016,3,Sweet 16,Gonzaga,11,63,Syracuse,10,68,Syracuse,10,Gonzaga,11,Syracuse,10,68,Gonzaga,11,63,131,5,1,1.5,True,False,10v11
+2016,4,Elite 8,Villanova,2,64,Kansas,1,59,Villanova,2,Kansas,1,Kansas,1,59,Villanova,2,64,123,-5,1,1.5,False,True,1v2
+2016,4,Elite 8,Oregon,1,64,Texas A&M,3,58,Oregon,1,Texas A&M,3,Oregon,1,64,Texas A&M,3,58,122,6,2,3.0,True,False,1v3
+2016,4,Elite 8,North Carolina,1,88,Notre Dame,6,74,North Carolina,1,Notre Dame,6,North Carolina,1,88,Notre Dame,6,74,162,14,5,7.5,True,False,1v6
+2016,4,Elite 8,Syracuse,10,68,Virginia,1,62,Syracuse,10,Virginia,1,Virginia,1,62,Syracuse,10,68,130,-6,9,14.0,False,True,1v10
+2016,5,Final Four,Villanova,2,95,Oklahoma,2,51,Villanova,2,Oklahoma,2,Villanova,2,95,Oklahoma,2,51,146,44,0,0.0,True,False,2v2
+2016,5,Final Four,North Carolina,1,83,Syracuse,10,66,North Carolina,1,Syracuse,10,North Carolina,1,83,Syracuse,10,66,149,17,9,14.0,True,False,1v10
+2016,6,Championship,Villanova,2,77,North Carolina,1,74,Villanova,2,North Carolina,1,North Carolina,1,74,Villanova,2,77,151,-3,1,1.5,False,True,1v2
+2017,1,First Round,Villanova,1,76,Mount St. Mary's,16,56,Villanova,1,Mount St. Mary's,16,Villanova,1,76,Mount St. Mary's,16,56,132,20,15,26.0,False,False,1v16
+2017,1,First Round,Wisconsin,8,84,Virginia Tech,9,74,Wisconsin,8,Virginia Tech,9,Wisconsin,8,84,Virginia Tech,9,74,158,10,1,1.5,True,False,8v9
+2017,1,First Round,Virginia,5,76,UNC Wilmington,12,71,Virginia,5,UNC Wilmington,12,Virginia,5,76,UNC Wilmington,12,71,147,5,7,10.5,False,False,5v12
+2017,1,First Round,Florida,4,80,ETSU,13,65,Florida,4,ETSU,13,Florida,4,80,ETSU,13,65,145,15,9,14.0,True,False,4v13
+2017,1,First Round,SMU,6,60,USC,11,66,USC,11,SMU,6,SMU,6,60,USC,11,66,126,-6,5,7.5,False,True,6v11
+2017,1,First Round,Baylor,3,91,New Mexico St,14,73,Baylor,3,New Mexico St,14,Baylor,3,91,New Mexico St,14,73,164,18,11,18.0,False,False,3v14
+2017,1,First Round,South Carolina,7,93,Marquette,10,73,South Carolina,7,Marquette,10,South Carolina,7,93,Marquette,10,73,166,20,3,4.5,True,False,7v10
+2017,1,First Round,Duke,2,87,Troy,15,65,Duke,2,Troy,15,Duke,2,87,Troy,15,65,152,22,13,22.0,False,False,2v15
+2017,1,First Round,Kansas,1,100,UC Davis,16,62,Kansas,1,UC Davis,16,Kansas,1,100,UC Davis,16,62,162,38,15,26.0,True,False,1v16
+2017,1,First Round,Miami FL,8,58,Michigan St,9,78,Michigan St,9,Miami FL,8,Miami FL,8,58,Michigan St,9,78,136,-20,1,1.5,False,True,8v9
+2017,1,First Round,Iowa St,5,84,Nevada,12,73,Iowa St,5,Nevada,12,Iowa St,5,84,Nevada,12,73,157,11,7,10.5,True,False,5v12
+2017,1,First Round,Purdue,4,80,Vermont,13,70,Purdue,4,Vermont,13,Purdue,4,80,Vermont,13,70,150,10,9,14.0,False,False,4v13
+2017,1,First Round,Creighton,6,72,Rhode Island,11,84,Rhode Island,11,Creighton,6,Creighton,6,72,Rhode Island,11,84,156,-12,5,7.5,False,True,6v11
+2017,1,First Round,Oregon,3,93,Iona,14,77,Oregon,3,Iona,14,Oregon,3,93,Iona,14,77,170,16,11,18.0,False,False,3v14
+2017,1,First Round,Michigan,7,92,Oklahoma St,10,91,Michigan,7,Oklahoma St,10,Michigan,7,92,Oklahoma St,10,91,183,1,3,4.5,False,False,7v10
+2017,1,First Round,Louisville,2,78,Jacksonville St,15,63,Louisville,2,Jacksonville St,15,Louisville,2,78,Jacksonville St,15,63,141,15,13,22.0,False,False,2v15
+2017,1,First Round,North Carolina,1,103,Texas Southern,16,64,North Carolina,1,Texas Southern,16,North Carolina,1,103,Texas Southern,16,64,167,39,15,26.0,True,False,1v16
+2017,1,First Round,Arkansas,8,77,Seton Hall,9,71,Arkansas,8,Seton Hall,9,Arkansas,8,77,Seton Hall,9,71,148,6,1,1.5,True,False,8v9
+2017,1,First Round,Minnesota,5,72,Middle Tennessee,12,81,Middle Tennessee,12,Minnesota,5,Minnesota,5,72,Middle Tennessee,12,81,153,-9,7,10.5,False,True,5v12
+2017,1,First Round,Butler,4,76,Winthrop,13,64,Butler,4,Winthrop,13,Butler,4,76,Winthrop,13,64,140,12,9,14.0,False,False,4v13
+2017,1,First Round,Cincinnati,6,75,Kansas St,11,61,Cincinnati,6,Kansas St,11,Cincinnati,6,75,Kansas St,11,61,136,14,5,7.5,True,False,6v11
+2017,1,First Round,UCLA,3,97,Kent St,14,80,UCLA,3,Kent St,14,UCLA,3,97,Kent St,14,80,177,17,11,18.0,False,False,3v14
+2017,1,First Round,Dayton,7,58,Wichita St,10,64,Wichita St,10,Dayton,7,Dayton,7,58,Wichita St,10,64,122,-6,3,4.5,False,True,7v10
+2017,1,First Round,Kentucky,2,79,Northern Kentucky,15,70,Kentucky,2,Northern Kentucky,15,Kentucky,2,79,Northern Kentucky,15,70,149,9,13,22.0,False,False,2v15
+2017,1,First Round,Gonzaga,1,66,South Dakota St,16,46,Gonzaga,1,South Dakota St,16,Gonzaga,1,66,South Dakota St,16,46,112,20,15,26.0,False,False,1v16
+2017,1,First Round,Northwestern,8,68,Vanderbilt,9,66,Northwestern,8,Vanderbilt,9,Northwestern,8,68,Vanderbilt,9,66,134,2,1,1.5,True,False,8v9
+2017,1,First Round,Notre Dame,5,60,Princeton,12,58,Notre Dame,5,Princeton,12,Notre Dame,5,60,Princeton,12,58,118,2,7,10.5,False,False,5v12
+2017,1,First Round,West Virginia,4,86,Bucknell,13,80,West Virginia,4,Bucknell,13,West Virginia,4,86,Bucknell,13,80,166,6,9,14.0,False,False,4v13
+2017,1,First Round,Maryland,6,65,Xavier,11,76,Xavier,11,Maryland,6,Maryland,6,65,Xavier,11,76,141,-11,5,7.5,False,True,6v11
+2017,1,First Round,Florida St,3,86,FGCU,14,80,Florida St,3,FGCU,14,Florida St,3,86,FGCU,14,80,166,6,11,18.0,False,False,3v14
+2017,1,First Round,Saint Mary's,7,46,VCU,10,44,Saint Mary's,7,VCU,10,Saint Mary's,7,46,VCU,10,44,90,2,3,4.5,False,False,7v10
+2017,1,First Round,Arizona,2,100,North Dakota,15,82,Arizona,2,North Dakota,15,Arizona,2,100,North Dakota,15,82,182,18,13,22.0,False,False,2v15
+2017,2,Second Round,Villanova,1,65,Wisconsin,8,85,Wisconsin,8,Villanova,1,Villanova,1,65,Wisconsin,8,85,150,-20,7,10.5,False,True,1v8
+2017,2,Second Round,Virginia,5,39,Florida,4,65,Florida,4,Virginia,5,Florida,4,65,Virginia,5,39,104,26,1,1.5,True,False,4v5
+2017,2,Second Round,USC,11,66,Baylor,3,82,Baylor,3,USC,11,Baylor,3,82,USC,11,66,148,16,8,12.0,True,False,3v11
+2017,2,Second Round,South Carolina,7,88,Duke,2,81,South Carolina,7,Duke,2,Duke,2,81,South Carolina,7,88,169,-7,5,7.5,False,True,2v7
+2017,2,Second Round,Kansas,1,90,Michigan St,9,70,Kansas,1,Michigan St,9,Kansas,1,90,Michigan St,9,70,160,20,8,12.0,True,False,1v9
+2017,2,Second Round,Iowa St,5,75,Purdue,4,80,Purdue,4,Iowa St,5,Purdue,4,80,Iowa St,5,75,155,5,1,1.5,True,False,4v5
+2017,2,Second Round,Rhode Island,11,62,Oregon,3,75,Oregon,3,Rhode Island,11,Oregon,3,75,Rhode Island,11,62,137,13,8,12.0,True,False,3v11
+2017,2,Second Round,Michigan,7,73,Louisville,2,69,Michigan,7,Louisville,2,Louisville,2,69,Michigan,7,73,142,-4,5,7.5,False,True,2v7
+2017,2,Second Round,North Carolina,1,72,Arkansas,8,65,North Carolina,1,Arkansas,8,North Carolina,1,72,Arkansas,8,65,137,7,7,10.5,False,False,1v8
+2017,2,Second Round,Middle Tennessee,12,51,Butler,4,74,Butler,4,Middle Tennessee,12,Butler,4,74,Middle Tennessee,12,51,125,23,8,12.0,True,False,4v12
+2017,2,Second Round,Cincinnati,6,64,UCLA,3,73,UCLA,3,Cincinnati,6,UCLA,3,73,Cincinnati,6,64,137,9,3,4.5,True,False,3v6
+2017,2,Second Round,Wichita St,10,65,Kentucky,2,67,Kentucky,2,Wichita St,10,Kentucky,2,67,Wichita St,10,65,132,2,8,12.0,False,False,2v10
+2017,2,Second Round,Gonzaga,1,79,Northwestern,8,73,Gonzaga,1,Northwestern,8,Gonzaga,1,79,Northwestern,8,73,152,6,7,10.5,False,False,1v8
+2017,2,Second Round,Notre Dame,5,58,West Virginia,4,83,West Virginia,4,Notre Dame,5,West Virginia,4,83,Notre Dame,5,58,141,25,1,1.5,True,False,4v5
+2017,2,Second Round,Xavier,11,91,Florida St,3,66,Xavier,11,Florida St,3,Florida St,3,66,Xavier,11,91,157,-25,8,12.0,False,True,3v11
+2017,2,Second Round,Saint Mary's,7,53,Arizona,2,69,Arizona,2,Saint Mary's,7,Arizona,2,69,Saint Mary's,7,53,122,16,5,7.5,True,False,2v7
+2017,3,Sweet 16,Wisconsin,8,54,Florida,4,84,Florida,4,Wisconsin,8,Florida,4,84,Wisconsin,8,54,138,30,4,6.0,True,False,4v8
+2017,3,Sweet 16,Baylor,3,78,South Carolina,7,82,South Carolina,7,Baylor,3,Baylor,3,78,South Carolina,7,82,160,-4,4,6.0,False,True,3v7
+2017,3,Sweet 16,Kansas,1,80,Purdue,4,76,Kansas,1,Purdue,4,Kansas,1,80,Purdue,4,76,156,4,3,4.5,False,False,1v4
+2017,3,Sweet 16,Oregon,3,69,Michigan,7,73,Michigan,7,Oregon,3,Oregon,3,69,Michigan,7,73,142,-4,4,6.0,False,True,3v7
+2017,3,Sweet 16,North Carolina,1,92,Butler,4,80,North Carolina,1,Butler,4,North Carolina,1,92,Butler,4,80,172,12,3,4.5,True,False,1v4
+2017,3,Sweet 16,UCLA,3,86,Kentucky,2,75,UCLA,3,Kentucky,2,Kentucky,2,75,UCLA,3,86,161,-11,1,1.5,False,True,2v3
+2017,3,Sweet 16,Gonzaga,1,61,West Virginia,4,58,Gonzaga,1,West Virginia,4,Gonzaga,1,61,West Virginia,4,58,119,3,3,4.5,False,False,1v4
+2017,3,Sweet 16,Xavier,11,73,Arizona,2,75,Arizona,2,Xavier,11,Arizona,2,75,Xavier,11,73,148,2,9,14.0,False,False,2v11
+2017,4,Elite 8,Florida,4,77,South Carolina,7,70,Florida,4,South Carolina,7,Florida,4,77,South Carolina,7,70,147,7,3,4.5,True,False,4v7
+2017,4,Elite 8,Kansas,1,60,Michigan,7,61,Michigan,7,Kansas,1,Kansas,1,60,Michigan,7,61,121,-1,6,9.0,False,True,1v7
+2017,4,Elite 8,North Carolina,1,75,Kentucky,2,73,North Carolina,1,Kentucky,2,North Carolina,1,75,Kentucky,2,73,148,2,1,1.5,True,False,1v2
+2017,4,Elite 8,Gonzaga,1,83,Arizona,2,59,Gonzaga,1,Arizona,2,Gonzaga,1,83,Arizona,2,59,142,24,1,1.5,True,False,1v2
+2017,5,Final Four,North Carolina,1,77,Oregon,7,76,North Carolina,1,Oregon,7,North Carolina,1,77,Oregon,7,76,153,1,6,9.0,False,False,1v7
+2017,5,Final Four,Gonzaga,1,77,South Carolina,7,73,Gonzaga,1,South Carolina,7,Gonzaga,1,77,South Carolina,7,73,150,4,6,9.0,False,False,1v7
+2017,6,Championship,North Carolina,1,71,Gonzaga,1,65,North Carolina,1,Gonzaga,1,North Carolina,1,71,Gonzaga,1,65,136,6,0,0.0,True,False,1v1
+2018,1,First Round,Virginia,1,54,UMBC,16,74,UMBC,16,Virginia,1,Virginia,1,54,UMBC,16,74,128,-20,15,26.0,False,True,1v16
+2018,1,First Round,Creighton,8,59,Kansas St,9,69,Kansas St,9,Creighton,8,Creighton,8,59,Kansas St,9,69,128,-10,1,1.5,False,True,8v9
+2018,1,First Round,Kentucky,5,78,Davidson,12,73,Kentucky,5,Davidson,12,Kentucky,5,78,Davidson,12,73,151,5,7,10.5,False,False,5v12
+2018,1,First Round,Arizona,4,68,Buffalo,13,89,Buffalo,13,Arizona,4,Arizona,4,68,Buffalo,13,89,157,-21,9,14.0,False,True,4v13
+2018,1,First Round,Miami FL,6,62,Loyola Chicago,11,64,Loyola Chicago,11,Miami FL,6,Miami FL,6,62,Loyola Chicago,11,64,126,-2,5,7.5,False,True,6v11
+2018,1,First Round,Tennessee,3,73,Wright St,14,47,Tennessee,3,Wright St,14,Tennessee,3,73,Wright St,14,47,120,26,11,18.0,True,False,3v14
+2018,1,First Round,Nevada,7,87,Texas,10,83,Nevada,7,Texas,10,Nevada,7,87,Texas,10,83,170,4,3,4.5,False,False,7v10
+2018,1,First Round,Cincinnati,2,68,Georgia St,15,53,Cincinnati,2,Georgia St,15,Cincinnati,2,68,Georgia St,15,53,121,15,13,22.0,False,False,2v15
+2018,1,First Round,Xavier,1,102,Texas Southern,16,83,Xavier,1,Texas Southern,16,Xavier,1,102,Texas Southern,16,83,185,19,15,26.0,False,False,1v16
+2018,1,First Round,Missouri,8,54,Florida St,9,67,Florida St,9,Missouri,8,Missouri,8,54,Florida St,9,67,121,-13,1,1.5,False,True,8v9
+2018,1,First Round,Ohio St,5,81,South Dakota St,12,73,Ohio St,5,South Dakota St,12,Ohio St,5,81,South Dakota St,12,73,154,8,7,10.5,False,False,5v12
+2018,1,First Round,Gonzaga,4,68,UNC Greensboro,13,64,Gonzaga,4,UNC Greensboro,13,Gonzaga,4,68,UNC Greensboro,13,64,132,4,9,14.0,False,False,4v13
+2018,1,First Round,Houston,6,67,San Diego St,11,65,Houston,6,San Diego St,11,Houston,6,67,San Diego St,11,65,132,2,5,7.5,False,False,6v11
+2018,1,First Round,Michigan,3,61,Montana,14,47,Michigan,3,Montana,14,Michigan,3,61,Montana,14,47,108,14,11,18.0,False,False,3v14
+2018,1,First Round,Texas A&M,7,73,Providence,10,69,Texas A&M,7,Providence,10,Texas A&M,7,73,Providence,10,69,142,4,3,4.5,False,False,7v10
+2018,1,First Round,North Carolina,2,84,Lipscomb,15,66,North Carolina,2,Lipscomb,15,North Carolina,2,84,Lipscomb,15,66,150,18,13,22.0,False,False,2v15
+2018,1,First Round,Kansas,1,76,Penn,16,60,Kansas,1,Penn,16,Kansas,1,76,Penn,16,60,136,16,15,26.0,False,False,1v16
+2018,1,First Round,Seton Hall,8,94,NC State,9,83,Seton Hall,8,NC State,9,Seton Hall,8,94,NC State,9,83,177,11,1,1.5,True,False,8v9
+2018,1,First Round,Clemson,5,79,New Mexico St,12,68,Clemson,5,New Mexico St,12,Clemson,5,79,New Mexico St,12,68,147,11,7,10.5,True,False,5v12
+2018,1,First Round,Auburn,4,62,Charleston,13,58,Auburn,4,Charleston,13,Auburn,4,62,Charleston,13,58,120,4,9,14.0,False,False,4v13
+2018,1,First Round,TCU,6,52,Syracuse,11,57,Syracuse,11,TCU,6,TCU,6,52,Syracuse,11,57,109,-5,5,7.5,False,True,6v11
+2018,1,First Round,Michigan St,3,82,Bucknell,14,78,Michigan St,3,Bucknell,14,Michigan St,3,82,Bucknell,14,78,160,4,11,18.0,False,False,3v14
+2018,1,First Round,Rhode Island,7,83,Oklahoma,10,78,Rhode Island,7,Oklahoma,10,Rhode Island,7,83,Oklahoma,10,78,161,5,3,4.5,True,False,7v10
+2018,1,First Round,Duke,2,89,Iona,15,67,Duke,2,Iona,15,Duke,2,89,Iona,15,67,156,22,13,22.0,False,False,2v15
+2018,1,First Round,Villanova,1,87,Radford,16,61,Villanova,1,Radford,16,Villanova,1,87,Radford,16,61,148,26,15,26.0,False,False,1v16
+2018,1,First Round,Virginia Tech,8,73,Alabama,9,86,Alabama,9,Virginia Tech,8,Virginia Tech,8,73,Alabama,9,86,159,-13,1,1.5,False,True,8v9
+2018,1,First Round,West Virginia,5,85,Murray St,12,68,West Virginia,5,Murray St,12,West Virginia,5,85,Murray St,12,68,153,17,7,10.5,True,False,5v12
+2018,1,First Round,Wichita St,4,75,Marshall,13,94,Marshall,13,Wichita St,4,Wichita St,4,75,Marshall,13,94,169,-19,9,14.0,False,True,4v13
+2018,1,First Round,Florida,6,77,St. Bonaventure,11,62,Florida,6,St. Bonaventure,11,Florida,6,77,St. Bonaventure,11,62,139,15,5,7.5,True,False,6v11
+2018,1,First Round,Texas Tech,3,70,Stephen F. Austin,14,60,Texas Tech,3,Stephen F. Austin,14,Texas Tech,3,70,Stephen F. Austin,14,60,130,10,11,18.0,False,False,3v14
+2018,1,First Round,Arkansas,7,62,Butler,10,79,Butler,10,Arkansas,7,Arkansas,7,62,Butler,10,79,141,-17,3,4.5,False,True,7v10
+2018,1,First Round,Purdue,2,74,CSU Fullerton,15,48,Purdue,2,CSU Fullerton,15,Purdue,2,74,CSU Fullerton,15,48,122,26,13,22.0,True,False,2v15
+2018,2,Second Round,UMBC,16,43,Kansas St,9,50,Kansas St,9,UMBC,16,Kansas St,9,50,UMBC,16,43,93,7,7,10.5,False,False,9v16
+2018,2,Second Round,Kentucky,5,58,Buffalo,13,68,Buffalo,13,Kentucky,5,Kentucky,5,58,Buffalo,13,68,126,-10,8,12.0,False,True,5v13
+2018,2,Second Round,Loyola Chicago,11,63,Tennessee,3,62,Loyola Chicago,11,Tennessee,3,Tennessee,3,62,Loyola Chicago,11,63,125,-1,8,12.0,False,True,3v11
+2018,2,Second Round,Nevada,7,73,Cincinnati,2,75,Cincinnati,2,Nevada,7,Cincinnati,2,75,Nevada,7,73,148,2,5,7.5,False,False,2v7
+2018,2,Second Round,Xavier,1,68,Florida St,9,75,Florida St,9,Xavier,1,Xavier,1,68,Florida St,9,75,143,-7,8,12.0,False,True,1v9
+2018,2,Second Round,Ohio St,5,53,Gonzaga,4,90,Gonzaga,4,Ohio St,5,Gonzaga,4,90,Ohio St,5,53,143,37,1,1.5,True,False,4v5
+2018,2,Second Round,Houston,6,56,Michigan,3,64,Michigan,3,Houston,6,Michigan,3,64,Houston,6,56,120,8,3,4.5,True,False,3v6
+2018,2,Second Round,Texas A&M,7,86,North Carolina,2,65,Texas A&M,7,North Carolina,2,North Carolina,2,65,Texas A&M,7,86,151,-21,5,7.5,False,True,2v7
+2018,2,Second Round,Kansas,1,83,Seton Hall,8,79,Kansas,1,Seton Hall,8,Kansas,1,83,Seton Hall,8,79,162,4,7,10.5,False,False,1v8
+2018,2,Second Round,Clemson,5,84,Auburn,4,53,Clemson,5,Auburn,4,Auburn,4,53,Clemson,5,84,137,-31,1,1.5,False,True,4v5
+2018,2,Second Round,Syracuse,11,55,Michigan St,3,53,Syracuse,11,Michigan St,3,Michigan St,3,53,Syracuse,11,55,108,-2,8,12.0,False,True,3v11
+2018,2,Second Round,Duke,2,87,Rhode Island,10,62,Duke,2,Rhode Island,10,Duke,2,87,Rhode Island,10,62,149,25,8,12.0,True,False,2v10
+2018,2,Second Round,Villanova,1,81,Alabama,9,58,Villanova,1,Alabama,9,Villanova,1,81,Alabama,9,58,139,23,8,12.0,True,False,1v9
+2018,2,Second Round,West Virginia,5,59,Marshall,13,51,West Virginia,5,Marshall,13,West Virginia,5,59,Marshall,13,51,110,8,8,12.0,False,False,5v13
+2018,2,Second Round,Florida,6,56,Texas Tech,3,69,Texas Tech,3,Florida,6,Texas Tech,3,69,Florida,6,56,125,13,3,4.5,True,False,3v6
+2018,2,Second Round,Butler,10,73,Purdue,2,76,Purdue,2,Butler,10,Purdue,2,76,Butler,10,73,149,3,8,12.0,False,False,2v10
+2018,3,Sweet 16,Kansas St,9,56,Loyola Chicago,11,78,Loyola Chicago,11,Kansas St,9,Kansas St,9,56,Loyola Chicago,11,78,134,-22,2,3.0,False,True,9v11
+2018,3,Sweet 16,Cincinnati,2,48,Nevada,7,68,Nevada,7,Cincinnati,2,Cincinnati,2,48,Nevada,7,68,116,-20,5,7.5,False,True,2v7
+2018,3,Sweet 16,Florida St,9,67,Gonzaga,4,75,Gonzaga,4,Florida St,9,Gonzaga,4,75,Florida St,9,67,142,8,5,7.5,True,False,4v9
+2018,3,Sweet 16,Michigan,3,99,Texas A&M,7,72,Michigan,3,Texas A&M,7,Michigan,3,99,Texas A&M,7,72,171,27,4,6.0,True,False,3v7
+2018,3,Sweet 16,Kansas,1,80,Clemson,5,76,Kansas,1,Clemson,5,Kansas,1,80,Clemson,5,76,156,4,4,6.0,False,False,1v5
+2018,3,Sweet 16,Duke,2,69,Syracuse,11,65,Duke,2,Syracuse,11,Duke,2,69,Syracuse,11,65,134,4,9,14.0,False,False,2v11
+2018,3,Sweet 16,Villanova,1,90,West Virginia,5,78,Villanova,1,West Virginia,5,Villanova,1,90,West Virginia,5,78,168,12,4,6.0,True,False,1v5
+2018,3,Sweet 16,Texas Tech,3,78,Purdue,2,65,Texas Tech,3,Purdue,2,Purdue,2,65,Texas Tech,3,78,143,-13,1,1.5,False,True,2v3
+2018,4,Elite 8,Loyola Chicago,11,69,Kansas St,9,68,Loyola Chicago,11,Kansas St,9,Kansas St,9,68,Loyola Chicago,11,69,137,-1,2,3.0,False,True,9v11
+2018,4,Elite 8,Gonzaga,4,49,Michigan,3,58,Michigan,3,Gonzaga,4,Michigan,3,58,Gonzaga,4,49,107,9,1,1.5,True,False,3v4
+2018,4,Elite 8,Kansas,1,85,Duke,2,81,Kansas,1,Duke,2,Kansas,1,85,Duke,2,81,166,4,1,1.5,True,False,1v2
+2018,4,Elite 8,Villanova,1,71,Texas Tech,3,59,Villanova,1,Texas Tech,3,Villanova,1,71,Texas Tech,3,59,130,12,2,3.0,True,False,1v3
+2018,5,Final Four,Loyola Chicago,11,57,Michigan,3,69,Michigan,3,Loyola Chicago,11,Michigan,3,69,Loyola Chicago,11,57,126,12,8,12.0,False,False,3v11
+2018,5,Final Four,Villanova,1,95,Kansas,1,79,Villanova,1,Kansas,1,Villanova,1,95,Kansas,1,79,174,16,0,0.0,True,False,1v1
+2018,6,Championship,Villanova,1,79,Michigan,3,62,Villanova,1,Michigan,3,Villanova,1,79,Michigan,3,62,141,17,2,3.0,True,False,1v3
+2019,1,First Round,Duke,1,85,North Dakota St,16,62,Duke,1,North Dakota St,16,Duke,1,85,North Dakota St,16,62,147,23,15,26.0,False,False,1v16
+2019,1,First Round,VCU,8,58,UCF,9,73,UCF,9,VCU,8,VCU,8,58,UCF,9,73,131,-15,1,1.5,False,True,8v9
+2019,1,First Round,Mississippi St,5,76,Liberty,12,80,Liberty,12,Mississippi St,5,Mississippi St,5,76,Liberty,12,80,156,-4,7,10.5,False,True,5v12
+2019,1,First Round,Virginia Tech,4,66,Saint Louis,13,52,Virginia Tech,4,Saint Louis,13,Virginia Tech,4,66,Saint Louis,13,52,118,14,9,14.0,False,False,4v13
+2019,1,First Round,Maryland,6,79,Belmont,11,77,Maryland,6,Belmont,11,Maryland,6,79,Belmont,11,77,156,2,5,7.5,False,False,6v11
+2019,1,First Round,LSU,3,79,Yale,14,74,LSU,3,Yale,14,LSU,3,79,Yale,14,74,153,5,11,18.0,False,False,3v14
+2019,1,First Round,Louisville,7,56,Minnesota,10,86,Minnesota,10,Louisville,7,Louisville,7,56,Minnesota,10,86,142,-30,3,4.5,False,True,7v10
+2019,1,First Round,Michigan St,2,76,Bradley,15,65,Michigan St,2,Bradley,15,Michigan St,2,76,Bradley,15,65,141,11,13,22.0,False,False,2v15
+2019,1,First Round,Gonzaga,1,87,Fairleigh Dickinson,16,49,Gonzaga,1,Fairleigh Dickinson,16,Gonzaga,1,87,Fairleigh Dickinson,16,49,136,38,15,26.0,True,False,1v16
+2019,1,First Round,Syracuse,8,56,Baylor,9,78,Baylor,9,Syracuse,8,Syracuse,8,56,Baylor,9,78,134,-22,1,1.5,False,True,8v9
+2019,1,First Round,Marquette,5,49,Murray St,12,83,Murray St,12,Marquette,5,Marquette,5,49,Murray St,12,83,132,-34,7,10.5,False,True,5v12
+2019,1,First Round,Florida St,4,76,Vermont,13,69,Florida St,4,Vermont,13,Florida St,4,76,Vermont,13,69,145,7,9,14.0,False,False,4v13
+2019,1,First Round,Buffalo,6,91,Arizona St,11,74,Buffalo,6,Arizona St,11,Buffalo,6,91,Arizona St,11,74,165,17,5,7.5,True,False,6v11
+2019,1,First Round,Texas Tech,3,72,Northern Kentucky,14,57,Texas Tech,3,Northern Kentucky,14,Texas Tech,3,72,Northern Kentucky,14,57,129,15,11,18.0,False,False,3v14
+2019,1,First Round,Nevada,7,63,Florida,10,70,Florida,10,Nevada,7,Nevada,7,63,Florida,10,70,133,-7,3,4.5,False,True,7v10
+2019,1,First Round,Michigan,2,74,Montana,15,55,Michigan,2,Montana,15,Michigan,2,74,Montana,15,55,129,19,13,22.0,False,False,2v15
+2019,1,First Round,Virginia,1,71,Gardner-Webb,16,56,Virginia,1,Gardner-Webb,16,Virginia,1,71,Gardner-Webb,16,56,127,15,15,26.0,False,False,1v16
+2019,1,First Round,Ole Miss,8,72,Oklahoma,9,95,Oklahoma,9,Ole Miss,8,Ole Miss,8,72,Oklahoma,9,95,167,-23,1,1.5,False,True,8v9
+2019,1,First Round,Wisconsin,5,64,Oregon,12,72,Oregon,12,Wisconsin,5,Wisconsin,5,64,Oregon,12,72,136,-8,7,10.5,False,True,5v12
+2019,1,First Round,Kansas St,4,64,UC Irvine,13,70,UC Irvine,13,Kansas St,4,Kansas St,4,64,UC Irvine,13,70,134,-6,9,14.0,False,True,4v13
+2019,1,First Round,Villanova,6,61,Saint Mary's,11,57,Villanova,6,Saint Mary's,11,Villanova,6,61,Saint Mary's,11,57,118,4,5,7.5,False,False,6v11
+2019,1,First Round,Purdue,3,61,Old Dominion,14,48,Purdue,3,Old Dominion,14,Purdue,3,61,Old Dominion,14,48,109,13,11,18.0,False,False,3v14
+2019,1,First Round,Cincinnati,7,49,Iowa,10,79,Iowa,10,Cincinnati,7,Cincinnati,7,49,Iowa,10,79,128,-30,3,4.5,False,True,7v10
+2019,1,First Round,Tennessee,2,77,Colgate,15,70,Tennessee,2,Colgate,15,Tennessee,2,77,Colgate,15,70,147,7,13,22.0,False,False,2v15
+2019,1,First Round,North Carolina,1,88,Iona,16,73,North Carolina,1,Iona,16,North Carolina,1,88,Iona,16,73,161,15,15,26.0,False,False,1v16
+2019,1,First Round,Utah St,8,53,Washington,9,78,Washington,9,Utah St,8,Utah St,8,53,Washington,9,78,131,-25,1,1.5,False,True,8v9
+2019,1,First Round,Auburn,5,78,New Mexico St,12,77,Auburn,5,New Mexico St,12,Auburn,5,78,New Mexico St,12,77,155,1,7,10.5,False,False,5v12
+2019,1,First Round,Kansas,4,87,Northeastern,13,53,Kansas,4,Northeastern,13,Kansas,4,87,Northeastern,13,53,140,34,9,14.0,True,False,4v13
+2019,1,First Round,Iowa St,6,59,Ohio St,11,62,Ohio St,11,Iowa St,6,Iowa St,6,59,Ohio St,11,62,121,-3,5,7.5,False,True,6v11
+2019,1,First Round,Houston,3,84,Georgia St,14,55,Houston,3,Georgia St,14,Houston,3,84,Georgia St,14,55,139,29,11,18.0,True,False,3v14
+2019,1,First Round,Wofford,7,84,Seton Hall,10,68,Wofford,7,Seton Hall,10,Wofford,7,84,Seton Hall,10,68,152,16,3,4.5,True,False,7v10
+2019,1,First Round,Kentucky,2,79,Abilene Christian,15,44,Kentucky,2,Abilene Christian,15,Kentucky,2,79,Abilene Christian,15,44,123,35,13,22.0,True,False,2v15
+2019,2,Second Round,Duke,1,77,UCF,9,76,Duke,1,UCF,9,Duke,1,77,UCF,9,76,153,1,8,12.0,False,False,1v9
+2019,2,Second Round,Liberty,12,47,Virginia Tech,4,67,Virginia Tech,4,Liberty,12,Virginia Tech,4,67,Liberty,12,47,114,20,8,12.0,True,False,4v12
+2019,2,Second Round,Maryland,6,63,LSU,3,69,LSU,3,Maryland,6,LSU,3,69,Maryland,6,63,132,6,3,4.5,True,False,3v6
+2019,2,Second Round,Minnesota,10,54,Michigan St,2,70,Michigan St,2,Minnesota,10,Michigan St,2,70,Minnesota,10,54,124,16,8,12.0,True,False,2v10
+2019,2,Second Round,Gonzaga,1,83,Baylor,9,71,Gonzaga,1,Baylor,9,Gonzaga,1,83,Baylor,9,71,154,12,8,12.0,False,False,1v9
+2019,2,Second Round,Murray St,12,62,Florida St,4,90,Florida St,4,Murray St,12,Florida St,4,90,Murray St,12,62,152,28,8,12.0,True,False,4v12
+2019,2,Second Round,Buffalo,6,58,Texas Tech,3,78,Texas Tech,3,Buffalo,6,Texas Tech,3,78,Buffalo,6,58,136,20,3,4.5,True,False,3v6
+2019,2,Second Round,Florida,10,64,Michigan,2,74,Michigan,2,Florida,10,Michigan,2,74,Florida,10,64,138,10,8,12.0,False,False,2v10
+2019,2,Second Round,Virginia,1,63,Oklahoma,9,51,Virginia,1,Oklahoma,9,Virginia,1,63,Oklahoma,9,51,114,12,8,12.0,False,False,1v9
+2019,2,Second Round,Oregon,12,65,UC Irvine,13,73,UC Irvine,13,Oregon,12,Oregon,12,65,UC Irvine,13,73,138,-8,1,1.5,False,True,12v13
+2019,2,Second Round,Villanova,6,61,Purdue,3,87,Purdue,3,Villanova,6,Purdue,3,87,Villanova,6,61,148,26,3,4.5,True,False,3v6
+2019,2,Second Round,Iowa,10,75,Tennessee,2,83,Tennessee,2,Iowa,10,Tennessee,2,83,Iowa,10,75,158,8,8,12.0,False,False,2v10
+2019,2,Second Round,North Carolina,1,81,Washington,9,59,North Carolina,1,Washington,9,North Carolina,1,81,Washington,9,59,140,22,8,12.0,True,False,1v9
+2019,2,Second Round,Auburn,5,89,Kansas,4,75,Auburn,5,Kansas,4,Kansas,4,75,Auburn,5,89,164,-14,1,1.5,False,True,4v5
+2019,2,Second Round,Ohio St,11,55,Houston,3,74,Houston,3,Ohio St,11,Houston,3,74,Ohio St,11,55,129,19,8,12.0,True,False,3v11
+2019,2,Second Round,Wofford,7,56,Kentucky,2,62,Kentucky,2,Wofford,7,Kentucky,2,62,Wofford,7,56,118,6,5,7.5,False,False,2v7
+2019,3,Sweet 16,Duke,1,75,Virginia Tech,4,73,Duke,1,Virginia Tech,4,Duke,1,75,Virginia Tech,4,73,148,2,3,4.5,False,False,1v4
+2019,3,Sweet 16,LSU,3,63,Michigan St,2,80,Michigan St,2,LSU,3,Michigan St,2,80,LSU,3,63,143,17,1,1.5,True,False,2v3
+2019,3,Sweet 16,Gonzaga,1,72,Florida St,4,58,Gonzaga,1,Florida St,4,Gonzaga,1,72,Florida St,4,58,130,14,3,4.5,True,False,1v4
+2019,3,Sweet 16,Texas Tech,3,63,Michigan,2,44,Texas Tech,3,Michigan,2,Michigan,2,44,Texas Tech,3,63,107,-19,1,1.5,False,True,2v3
+2019,3,Sweet 16,Virginia,1,53,Oregon,12,49,Virginia,1,Oregon,12,Virginia,1,53,Oregon,12,49,102,4,11,18.0,False,False,1v12
+2019,3,Sweet 16,Purdue,3,87,Tennessee,2,86,Purdue,3,Tennessee,2,Tennessee,2,86,Purdue,3,87,173,-1,1,1.5,False,True,2v3
+2019,3,Sweet 16,North Carolina,1,72,Auburn,5,97,Auburn,5,North Carolina,1,North Carolina,1,72,Auburn,5,97,169,-25,4,6.0,False,True,1v5
+2019,3,Sweet 16,Houston,3,62,Kentucky,2,58,Houston,3,Kentucky,2,Kentucky,2,58,Houston,3,62,120,-4,1,1.5,False,True,2v3
+2019,4,Elite 8,Duke,1,63,Michigan St,2,68,Michigan St,2,Duke,1,Duke,1,63,Michigan St,2,68,131,-5,1,1.5,False,True,1v2
+2019,4,Elite 8,Texas Tech,3,75,Gonzaga,1,69,Texas Tech,3,Gonzaga,1,Gonzaga,1,69,Texas Tech,3,75,144,-6,2,3.0,False,True,1v3
+2019,4,Elite 8,Virginia,1,80,Purdue,3,75,Virginia,1,Purdue,3,Virginia,1,80,Purdue,3,75,155,5,2,3.0,True,False,1v3
+2019,4,Elite 8,Auburn,5,77,Houston,3,61,Auburn,5,Houston,3,Houston,3,61,Auburn,5,77,138,-16,2,3.0,False,True,3v5
+2019,5,Final Four,Michigan St,2,61,Texas Tech,3,51,Michigan St,2,Texas Tech,3,Michigan St,2,61,Texas Tech,3,51,112,10,1,1.5,True,False,2v3
+2019,5,Final Four,Virginia,1,63,Auburn,5,62,Virginia,1,Auburn,5,Virginia,1,63,Auburn,5,62,125,1,4,6.0,False,False,1v5
+2019,6,Championship,Virginia,1,85,Texas Tech,3,77,Virginia,1,Texas Tech,3,Virginia,1,85,Texas Tech,3,77,162,8,2,3.0,True,False,1v3
+2021,1,First Round,Gonzaga,1,98,Norfolk St,16,55,Gonzaga,1,Norfolk St,16,Gonzaga,1,98,Norfolk St,16,55,153,43,15,26.0,True,False,1v16
+2021,1,First Round,Oklahoma,8,72,Missouri,9,68,Oklahoma,8,Missouri,9,Oklahoma,8,72,Missouri,9,68,140,4,1,1.5,True,False,8v9
+2021,1,First Round,Creighton,5,63,UC Santa Barbara,12,62,Creighton,5,UC Santa Barbara,12,Creighton,5,63,UC Santa Barbara,12,62,125,1,7,10.5,False,False,5v12
+2021,1,First Round,Virginia,4,62,Ohio,13,58,Virginia,4,Ohio,13,Virginia,4,62,Ohio,13,58,120,4,9,14.0,False,False,4v13
+2021,1,First Round,USC,6,72,Drake,11,56,USC,6,Drake,11,USC,6,72,Drake,11,56,128,16,5,7.5,True,False,6v11
+2021,1,First Round,Kansas,3,93,Eastern Washington,14,84,Kansas,3,Eastern Washington,14,Kansas,3,93,Eastern Washington,14,84,177,9,11,18.0,False,False,3v14
+2021,1,First Round,Oregon,7,95,VCU,10,80,Oregon,7,VCU,10,Oregon,7,95,VCU,10,80,175,15,3,4.5,True,False,7v10
+2021,1,First Round,Iowa,2,86,Grand Canyon,15,74,Iowa,2,Grand Canyon,15,Iowa,2,86,Grand Canyon,15,74,160,12,13,22.0,False,False,2v15
+2021,1,First Round,Baylor,1,79,Hartford,16,55,Baylor,1,Hartford,16,Baylor,1,79,Hartford,16,55,134,24,15,26.0,False,False,1v16
+2021,1,First Round,North Carolina,8,78,Wisconsin,9,73,North Carolina,8,Wisconsin,9,North Carolina,8,78,Wisconsin,9,73,151,5,1,1.5,True,False,8v9
+2021,1,First Round,Villanova,5,73,Winthrop,12,63,Villanova,5,Winthrop,12,Villanova,5,73,Winthrop,12,63,136,10,7,10.5,False,False,5v12
+2021,1,First Round,Purdue,4,78,North Texas,13,69,Purdue,4,North Texas,13,Purdue,4,78,North Texas,13,69,147,9,9,14.0,False,False,4v13
+2021,1,First Round,Texas Tech,6,65,Utah St,11,53,Texas Tech,6,Utah St,11,Texas Tech,6,65,Utah St,11,53,118,12,5,7.5,True,False,6v11
+2021,1,First Round,Arkansas,3,85,Colgate,14,68,Arkansas,3,Colgate,14,Arkansas,3,85,Colgate,14,68,153,17,11,18.0,False,False,3v14
+2021,1,First Round,Florida,7,75,Virginia Tech,10,70,Florida,7,Virginia Tech,10,Florida,7,75,Virginia Tech,10,70,145,5,3,4.5,True,False,7v10
+2021,1,First Round,Ohio St,2,75,Oral Roberts,15,72,Ohio St,2,Oral Roberts,15,Ohio St,2,75,Oral Roberts,15,72,147,3,13,22.0,False,False,2v15
+2021,1,First Round,Michigan,1,82,Texas Southern,16,66,Michigan,1,Texas Southern,16,Michigan,1,82,Texas Southern,16,66,148,16,15,26.0,False,False,1v16
+2021,1,First Round,LSU,8,76,St. Bonaventure,9,61,LSU,8,St. Bonaventure,9,LSU,8,76,St. Bonaventure,9,61,137,15,1,1.5,True,False,8v9
+2021,1,First Round,Colorado,5,96,Georgetown,12,73,Colorado,5,Georgetown,12,Colorado,5,96,Georgetown,12,73,169,23,7,10.5,True,False,5v12
+2021,1,First Round,Florida St,4,64,UNC Greensboro,13,54,Florida St,4,UNC Greensboro,13,Florida St,4,64,UNC Greensboro,13,54,118,10,9,14.0,False,False,4v13
+2021,1,First Round,BYU,6,62,UCLA,11,73,UCLA,11,BYU,6,BYU,6,62,UCLA,11,73,135,-11,5,7.5,False,True,6v11
+2021,1,First Round,Texas,3,52,Abilene Christian,14,53,Abilene Christian,14,Texas,3,Texas,3,52,Abilene Christian,14,53,105,-1,11,18.0,False,True,3v14
+2021,1,First Round,Connecticut,7,54,Maryland,10,63,Maryland,10,Connecticut,7,Connecticut,7,54,Maryland,10,63,117,-9,3,4.5,False,True,7v10
+2021,1,First Round,Alabama,2,68,Iona,15,55,Alabama,2,Iona,15,Alabama,2,68,Iona,15,55,123,13,13,22.0,False,False,2v15
+2021,1,First Round,Illinois,1,78,Drexel,16,49,Illinois,1,Drexel,16,Illinois,1,78,Drexel,16,49,127,29,15,26.0,True,False,1v16
+2021,1,First Round,Loyola Chicago,8,71,Georgia Tech,9,60,Loyola Chicago,8,Georgia Tech,9,Loyola Chicago,8,71,Georgia Tech,9,60,131,11,1,1.5,True,False,8v9
+2021,1,First Round,Tennessee,5,56,Oregon St,12,70,Oregon St,12,Tennessee,5,Tennessee,5,56,Oregon St,12,70,126,-14,7,10.5,False,True,5v12
+2021,1,First Round,Oklahoma St,4,69,Liberty,13,60,Oklahoma St,4,Liberty,13,Oklahoma St,4,69,Liberty,13,60,129,9,9,14.0,False,False,4v13
+2021,1,First Round,San Diego St,6,46,Syracuse,11,78,Syracuse,11,San Diego St,6,San Diego St,6,46,Syracuse,11,78,124,-32,5,7.5,False,True,6v11
+2021,1,First Round,West Virginia,3,84,Morehead St,14,67,West Virginia,3,Morehead St,14,West Virginia,3,84,Morehead St,14,67,151,17,11,18.0,False,False,3v14
+2021,1,First Round,Clemson,7,56,Rutgers,10,60,Rutgers,10,Clemson,7,Clemson,7,56,Rutgers,10,60,116,-4,3,4.5,False,True,7v10
+2021,1,First Round,Houston,2,87,Cleveland St,15,56,Houston,2,Cleveland St,15,Houston,2,87,Cleveland St,15,56,143,31,13,22.0,True,False,2v15
+2021,2,Second Round,Gonzaga,1,87,Oklahoma,8,71,Gonzaga,1,Oklahoma,8,Gonzaga,1,87,Oklahoma,8,71,158,16,7,10.5,True,False,1v8
+2021,2,Second Round,Creighton,5,72,Virginia,4,58,Creighton,5,Virginia,4,Virginia,4,58,Creighton,5,72,130,-14,1,1.5,False,True,4v5
+2021,2,Second Round,USC,6,82,Kansas,3,68,USC,6,Kansas,3,Kansas,3,68,USC,6,82,150,-14,3,4.5,False,True,3v6
+2021,2,Second Round,Oregon,7,55,Iowa,2,95,Iowa,2,Oregon,7,Iowa,2,95,Oregon,7,55,150,40,5,7.5,True,False,2v7
+2021,2,Second Round,Baylor,1,76,North Carolina,8,63,Baylor,1,North Carolina,8,Baylor,1,76,North Carolina,8,63,139,13,7,10.5,True,False,1v8
+2021,2,Second Round,Villanova,5,84,Purdue,4,61,Villanova,5,Purdue,4,Purdue,4,61,Villanova,5,84,145,-23,1,1.5,False,True,4v5
+2021,2,Second Round,Texas Tech,6,56,Arkansas,3,68,Arkansas,3,Texas Tech,6,Arkansas,3,68,Texas Tech,6,56,124,12,3,4.5,True,False,3v6
+2021,2,Second Round,Florida,7,55,Oral Roberts,15,81,Oral Roberts,15,Florida,7,Florida,7,55,Oral Roberts,15,81,136,-26,8,12.0,False,True,7v15
+2021,2,Second Round,Michigan,1,86,LSU,8,78,Michigan,1,LSU,8,Michigan,1,86,LSU,8,78,164,8,7,10.5,False,False,1v8
+2021,2,Second Round,Colorado,5,53,Florida St,4,71,Florida St,4,Colorado,5,Florida St,4,71,Colorado,5,53,124,18,1,1.5,True,False,4v5
+2021,2,Second Round,UCLA,11,67,Abilene Christian,14,47,UCLA,11,Abilene Christian,14,UCLA,11,67,Abilene Christian,14,47,114,20,3,4.5,True,False,11v14
+2021,2,Second Round,Alabama,2,96,Maryland,10,77,Alabama,2,Maryland,10,Alabama,2,96,Maryland,10,77,173,19,8,12.0,True,False,2v10
+2021,2,Second Round,Illinois,1,56,Loyola Chicago,8,71,Loyola Chicago,8,Illinois,1,Illinois,1,56,Loyola Chicago,8,71,127,-15,7,10.5,False,True,1v8
+2021,2,Second Round,Oregon St,12,80,Oklahoma St,4,70,Oregon St,12,Oklahoma St,4,Oklahoma St,4,70,Oregon St,12,80,150,-10,8,12.0,False,True,4v12
+2021,2,Second Round,Syracuse,11,57,West Virginia,3,75,West Virginia,3,Syracuse,11,West Virginia,3,75,Syracuse,11,57,132,18,8,12.0,True,False,3v11
+2021,2,Second Round,Houston,2,63,Rutgers,10,60,Houston,2,Rutgers,10,Houston,2,63,Rutgers,10,60,123,3,8,12.0,False,False,2v10
+2021,3,Sweet 16,Gonzaga,1,83,Creighton,5,65,Gonzaga,1,Creighton,5,Gonzaga,1,83,Creighton,5,65,148,18,4,6.0,True,False,1v5
+2021,3,Sweet 16,USC,6,82,Oregon,7,68,USC,6,Oregon,7,USC,6,82,Oregon,7,68,150,14,1,1.5,True,False,6v7
+2021,3,Sweet 16,Baylor,1,62,Villanova,5,51,Baylor,1,Villanova,5,Baylor,1,62,Villanova,5,51,113,11,4,6.0,True,False,1v5
+2021,3,Sweet 16,Arkansas,3,72,Oral Roberts,15,70,Arkansas,3,Oral Roberts,15,Arkansas,3,72,Oral Roberts,15,70,142,2,12,20.0,False,False,3v15
+2021,3,Sweet 16,Michigan,1,76,Florida St,4,58,Michigan,1,Florida St,4,Michigan,1,76,Florida St,4,58,134,18,3,4.5,True,False,1v4
+2021,3,Sweet 16,UCLA,11,73,Alabama,2,62,UCLA,11,Alabama,2,Alabama,2,62,UCLA,11,73,135,-11,9,14.0,False,True,2v11
+2021,3,Sweet 16,Loyola Chicago,8,52,Oregon St,12,65,Oregon St,12,Loyola Chicago,8,Loyola Chicago,8,52,Oregon St,12,65,117,-13,4,6.0,False,True,8v12
+2021,3,Sweet 16,Houston,2,62,Syracuse,11,46,Houston,2,Syracuse,11,Houston,2,62,Syracuse,11,46,108,16,9,14.0,True,False,2v11
+2021,4,Elite 8,Gonzaga,1,85,USC,6,66,Gonzaga,1,USC,6,Gonzaga,1,85,USC,6,66,151,19,5,7.5,True,False,1v6
+2021,4,Elite 8,Baylor,1,81,Arkansas,3,72,Baylor,1,Arkansas,3,Baylor,1,81,Arkansas,3,72,153,9,2,3.0,True,False,1v3
+2021,4,Elite 8,UCLA,11,51,Michigan,1,49,UCLA,11,Michigan,1,Michigan,1,49,UCLA,11,51,100,-2,10,16.0,False,True,1v11
+2021,4,Elite 8,Houston,2,67,Oregon St,12,61,Houston,2,Oregon St,12,Houston,2,67,Oregon St,12,61,128,6,10,16.0,False,False,2v12
+2021,5,Final Four,Gonzaga,1,93,UCLA,11,90,Gonzaga,1,UCLA,11,Gonzaga,1,93,UCLA,11,90,183,3,10,16.0,False,False,1v11
+2021,5,Final Four,Baylor,1,78,Houston,2,59,Baylor,1,Houston,2,Baylor,1,78,Houston,2,59,137,19,1,1.5,True,False,1v2
+2021,6,Championship,Baylor,1,86,Gonzaga,1,70,Baylor,1,Gonzaga,1,Baylor,1,86,Gonzaga,1,70,156,16,0,0.0,True,False,1v1
+2022,1,First Round,Gonzaga,1,93,Georgia St,16,72,Gonzaga,1,Georgia St,16,Gonzaga,1,93,Georgia St,16,72,165,21,15,26.0,False,False,1v16
+2022,1,First Round,Boise St,8,53,Memphis,9,64,Memphis,9,Boise St,8,Boise St,8,53,Memphis,9,64,117,-11,1,1.5,False,True,8v9
+2022,1,First Round,Connecticut,5,72,New Mexico St,12,62,Connecticut,5,New Mexico St,12,Connecticut,5,72,New Mexico St,12,62,134,10,7,10.5,False,False,5v12
+2022,1,First Round,Arkansas,4,75,Vermont,13,71,Arkansas,4,Vermont,13,Arkansas,4,75,Vermont,13,71,146,4,9,14.0,False,False,4v13
+2022,1,First Round,Alabama,6,78,Notre Dame,11,64,Alabama,6,Notre Dame,11,Alabama,6,78,Notre Dame,11,64,142,14,5,7.5,True,False,6v11
+2022,1,First Round,Texas Tech,3,97,Montana St,14,62,Texas Tech,3,Montana St,14,Texas Tech,3,97,Montana St,14,62,159,35,11,18.0,True,False,3v14
+2022,1,First Round,Michigan St,7,74,Davidson,10,73,Michigan St,7,Davidson,10,Michigan St,7,74,Davidson,10,73,147,1,3,4.5,False,False,7v10
+2022,1,First Round,Duke,2,78,CSU Fullerton,15,61,Duke,2,CSU Fullerton,15,Duke,2,78,CSU Fullerton,15,61,139,17,13,22.0,False,False,2v15
+2022,1,First Round,Kansas,1,83,Texas Southern,16,56,Kansas,1,Texas Southern,16,Kansas,1,83,Texas Southern,16,56,139,27,15,26.0,True,False,1v16
+2022,1,First Round,San Diego St,8,53,Creighton,9,72,Creighton,9,San Diego St,8,San Diego St,8,53,Creighton,9,72,125,-19,1,1.5,False,True,8v9
+2022,1,First Round,Iowa,5,95,Richmond,12,80,Iowa,5,Richmond,12,Iowa,5,95,Richmond,12,80,175,15,7,10.5,True,False,5v12
+2022,1,First Round,Providence,4,66,South Dakota St,13,57,Providence,4,South Dakota St,13,Providence,4,66,South Dakota St,13,57,123,9,9,14.0,False,False,4v13
+2022,1,First Round,LSU,6,60,Iowa St,11,59,LSU,6,Iowa St,11,LSU,6,60,Iowa St,11,59,119,1,5,7.5,False,False,6v11
+2022,1,First Round,Wisconsin,3,67,Colgate,14,60,Wisconsin,3,Colgate,14,Wisconsin,3,67,Colgate,14,60,127,7,11,18.0,False,False,3v14
+2022,1,First Round,USC,7,66,Miami FL,10,68,Miami FL,10,USC,7,USC,7,66,Miami FL,10,68,134,-2,3,4.5,False,True,7v10
+2022,1,First Round,Auburn,2,80,Jacksonville St,15,61,Auburn,2,Jacksonville St,15,Auburn,2,80,Jacksonville St,15,61,141,19,13,22.0,False,False,2v15
+2022,1,First Round,Arizona,1,87,Wright St,16,70,Arizona,1,Wright St,16,Arizona,1,87,Wright St,16,70,157,17,15,26.0,False,False,1v16
+2022,1,First Round,Seton Hall,8,67,TCU,9,69,TCU,9,Seton Hall,8,Seton Hall,8,67,TCU,9,69,136,-2,1,1.5,False,True,8v9
+2022,1,First Round,Houston,5,82,UAB,12,68,Houston,5,UAB,12,Houston,5,82,UAB,12,68,150,14,7,10.5,True,False,5v12
+2022,1,First Round,Illinois,4,54,Chattanooga,13,53,Illinois,4,Chattanooga,13,Illinois,4,54,Chattanooga,13,53,107,1,9,14.0,False,False,4v13
+2022,1,First Round,Colorado St,6,53,Michigan,11,75,Michigan,11,Colorado St,6,Colorado St,6,53,Michigan,11,75,128,-22,5,7.5,False,True,6v11
+2022,1,First Round,Tennessee,3,88,Longwood,14,56,Tennessee,3,Longwood,14,Tennessee,3,88,Longwood,14,56,144,32,11,18.0,True,False,3v14
+2022,1,First Round,Ohio St,7,54,Loyola Chicago,10,65,Loyola Chicago,10,Ohio St,7,Ohio St,7,54,Loyola Chicago,10,65,119,-11,3,4.5,False,True,7v10
+2022,1,First Round,Villanova,2,80,Delaware,15,60,Villanova,2,Delaware,15,Villanova,2,80,Delaware,15,60,140,20,13,22.0,False,False,2v15
+2022,1,First Round,Baylor,1,85,Norfolk St,16,49,Baylor,1,Norfolk St,16,Baylor,1,85,Norfolk St,16,49,134,36,15,26.0,True,False,1v16
+2022,1,First Round,North Carolina,8,95,Marquette,9,63,North Carolina,8,Marquette,9,North Carolina,8,95,Marquette,9,63,158,32,1,1.5,True,False,8v9
+2022,1,First Round,Saint Mary's,5,82,Indiana,12,53,Saint Mary's,5,Indiana,12,Saint Mary's,5,82,Indiana,12,53,135,29,7,10.5,True,False,5v12
+2022,1,First Round,UCLA,4,57,Akron,13,53,UCLA,4,Akron,13,UCLA,4,57,Akron,13,53,110,4,9,14.0,False,False,4v13
+2022,1,First Round,Texas,6,81,Virginia Tech,11,73,Texas,6,Virginia Tech,11,Texas,6,81,Virginia Tech,11,73,154,8,5,7.5,True,False,6v11
+2022,1,First Round,Purdue,3,78,Yale,14,56,Purdue,3,Yale,14,Purdue,3,78,Yale,14,56,134,22,11,18.0,True,False,3v14
+2022,1,First Round,Murray St,7,92,San Francisco,10,87,Murray St,7,San Francisco,10,Murray St,7,92,San Francisco,10,87,179,5,3,4.5,True,False,7v10
+2022,1,First Round,Kentucky,2,79,Saint Peter's,15,85,Saint Peter's,15,Kentucky,2,Kentucky,2,79,Saint Peter's,15,85,164,-6,13,22.0,False,True,2v15
+2022,2,Second Round,Gonzaga,1,82,Memphis,9,78,Gonzaga,1,Memphis,9,Gonzaga,1,82,Memphis,9,78,160,4,8,12.0,False,False,1v9
+2022,2,Second Round,Connecticut,5,52,Arkansas,4,53,Arkansas,4,Connecticut,5,Arkansas,4,53,Connecticut,5,52,105,1,1,1.5,False,False,4v5
+2022,2,Second Round,Alabama,6,59,Texas Tech,3,85,Texas Tech,3,Alabama,6,Texas Tech,3,85,Alabama,6,59,144,26,3,4.5,True,False,3v6
+2022,2,Second Round,Michigan St,7,68,Duke,2,85,Duke,2,Michigan St,7,Duke,2,85,Michigan St,7,68,153,17,5,7.5,True,False,2v7
+2022,2,Second Round,Kansas,1,79,Creighton,9,72,Kansas,1,Creighton,9,Kansas,1,79,Creighton,9,72,151,7,8,12.0,False,False,1v9
+2022,2,Second Round,Iowa,5,73,Providence,4,54,Iowa,5,Providence,4,Providence,4,54,Iowa,5,73,127,-19,1,1.5,False,True,4v5
+2022,2,Second Round,LSU,6,44,Wisconsin,3,45,Wisconsin,3,LSU,6,Wisconsin,3,45,LSU,6,44,89,1,3,4.5,False,False,3v6
+2022,2,Second Round,Miami FL,10,79,Auburn,2,61,Miami FL,10,Auburn,2,Auburn,2,61,Miami FL,10,79,140,-18,8,12.0,False,True,2v10
+2022,2,Second Round,Arizona,1,85,TCU,9,80,Arizona,1,TCU,9,Arizona,1,85,TCU,9,80,165,5,8,12.0,False,False,1v9
+2022,2,Second Round,Houston,5,68,Illinois,4,53,Houston,5,Illinois,4,Illinois,4,53,Houston,5,68,121,-15,1,1.5,False,True,4v5
+2022,2,Second Round,Michigan,11,76,Tennessee,3,68,Michigan,11,Tennessee,3,Tennessee,3,68,Michigan,11,76,144,-8,8,12.0,False,True,3v11
+2022,2,Second Round,Loyola Chicago,10,54,Villanova,2,71,Villanova,2,Loyola Chicago,10,Villanova,2,71,Loyola Chicago,10,54,125,17,8,12.0,True,False,2v10
+2022,2,Second Round,Baylor,1,70,North Carolina,8,93,North Carolina,8,Baylor,1,Baylor,1,70,North Carolina,8,93,163,-23,7,10.5,False,True,1v8
+2022,2,Second Round,Saint Mary's,5,52,UCLA,4,67,UCLA,4,Saint Mary's,5,UCLA,4,67,Saint Mary's,5,52,119,15,1,1.5,True,False,4v5
+2022,2,Second Round,Texas,6,56,Purdue,3,81,Purdue,3,Texas,6,Purdue,3,81,Texas,6,56,137,25,3,4.5,True,False,3v6
+2022,2,Second Round,Saint Peter's,15,70,Murray St,7,60,Saint Peter's,15,Murray St,7,Murray St,7,60,Saint Peter's,15,70,130,-10,8,12.0,False,True,7v15
+2022,3,Sweet 16,Gonzaga,1,82,Arkansas,4,74,Gonzaga,1,Arkansas,4,Gonzaga,1,82,Arkansas,4,74,156,8,3,4.5,True,False,1v4
+2022,3,Sweet 16,Texas Tech,3,55,Duke,2,78,Duke,2,Texas Tech,3,Duke,2,78,Texas Tech,3,55,133,23,1,1.5,True,False,2v3
+2022,3,Sweet 16,Kansas,1,66,Providence,4,61,Kansas,1,Providence,4,Kansas,1,66,Providence,4,61,127,5,3,4.5,True,False,1v4
+2022,3,Sweet 16,Miami FL,10,70,Iowa St,11,56,Miami FL,10,Iowa St,11,Miami FL,10,70,Iowa St,11,56,126,14,1,1.5,True,False,10v11
+2022,3,Sweet 16,Arizona,1,72,Houston,5,60,Arizona,1,Houston,5,Arizona,1,72,Houston,5,60,132,12,4,6.0,True,False,1v5
+2022,3,Sweet 16,Michigan,11,76,Villanova,2,63,Michigan,11,Villanova,2,Villanova,2,63,Michigan,11,76,139,-13,9,14.0,False,True,2v11
+2022,3,Sweet 16,North Carolina,8,73,UCLA,4,66,North Carolina,8,UCLA,4,UCLA,4,66,North Carolina,8,73,139,-7,4,6.0,False,True,4v8
+2022,3,Sweet 16,Purdue,3,67,Saint Peter's,15,64,Purdue,3,Saint Peter's,15,Purdue,3,67,Saint Peter's,15,64,131,3,12,20.0,False,False,3v15
+2022,4,Elite 8,Gonzaga,1,66,Duke,2,81,Duke,2,Gonzaga,1,Gonzaga,1,66,Duke,2,81,147,-15,1,1.5,False,True,1v2
+2022,4,Elite 8,Kansas,1,76,Miami FL,10,50,Kansas,1,Miami FL,10,Kansas,1,76,Miami FL,10,50,126,26,9,14.0,True,False,1v10
+2022,4,Elite 8,Arizona,1,49,Villanova,2,50,Villanova,2,Arizona,1,Arizona,1,49,Villanova,2,50,99,-1,1,1.5,False,True,1v2
+2022,4,Elite 8,North Carolina,8,69,Saint Peter's,15,49,North Carolina,8,Saint Peter's,15,North Carolina,8,69,Saint Peter's,15,49,118,20,7,10.5,True,False,8v15
+2022,5,Final Four,Duke,2,52,North Carolina,8,81,North Carolina,8,Duke,2,Duke,2,52,North Carolina,8,81,133,-29,6,9.0,False,True,2v8
+2022,5,Final Four,Kansas,1,81,Villanova,2,65,Kansas,1,Villanova,2,Kansas,1,81,Villanova,2,65,146,16,1,1.5,True,False,1v2
+2022,6,Championship,Kansas,1,72,North Carolina,8,69,Kansas,1,North Carolina,8,Kansas,1,72,North Carolina,8,69,141,3,7,10.5,False,False,1v8
+2023,1,First Round,Alabama,1,96,Texas A&M-CC,16,75,Alabama,1,Texas A&M-CC,16,Alabama,1,96,Texas A&M-CC,16,75,171,21,15,26.0,False,False,1v16
+2023,1,First Round,Maryland,8,67,West Virginia,9,65,Maryland,8,West Virginia,9,Maryland,8,67,West Virginia,9,65,132,2,1,1.5,True,False,8v9
+2023,1,First Round,San Diego St,5,63,Charleston,12,57,San Diego St,5,Charleston,12,San Diego St,5,63,Charleston,12,57,120,6,7,10.5,False,False,5v12
+2023,1,First Round,Virginia,4,51,Furman,13,68,Furman,13,Virginia,4,Virginia,4,51,Furman,13,68,119,-17,9,14.0,False,True,4v13
+2023,1,First Round,Creighton,6,72,NC State,11,63,Creighton,6,NC State,11,Creighton,6,72,NC State,11,63,135,9,5,7.5,True,False,6v11
+2023,1,First Round,Baylor,3,74,UC Santa Barbara,14,56,Baylor,3,UC Santa Barbara,14,Baylor,3,74,UC Santa Barbara,14,56,130,18,11,18.0,False,False,3v14
+2023,1,First Round,Missouri,7,51,Utah St,10,65,Utah St,10,Missouri,7,Missouri,7,51,Utah St,10,65,116,-14,3,4.5,False,True,7v10
+2023,1,First Round,Arizona,2,85,Princeton,15,80,Arizona,2,Princeton,15,Arizona,2,85,Princeton,15,80,165,5,13,22.0,False,False,2v15
+2023,1,First Round,Houston,1,63,Northern Kentucky,16,52,Houston,1,Northern Kentucky,16,Houston,1,63,Northern Kentucky,16,52,115,11,15,26.0,False,False,1v16
+2023,1,First Round,Iowa,8,83,Auburn,9,75,Iowa,8,Auburn,9,Iowa,8,83,Auburn,9,75,158,8,1,1.5,True,False,8v9
+2023,1,First Round,Miami FL,5,63,Drake,12,56,Miami FL,5,Drake,12,Miami FL,5,63,Drake,12,56,119,7,7,10.5,False,False,5v12
+2023,1,First Round,Indiana,4,63,Kent St,13,71,Kent St,13,Indiana,4,Indiana,4,63,Kent St,13,71,134,-8,9,14.0,False,True,4v13
+2023,1,First Round,Iowa St,6,41,Pittsburgh,11,59,Pittsburgh,11,Iowa St,6,Iowa St,6,41,Pittsburgh,11,59,100,-18,5,7.5,False,True,6v11
+2023,1,First Round,Xavier,3,72,Kennesaw St,14,67,Xavier,3,Kennesaw St,14,Xavier,3,72,Kennesaw St,14,67,139,5,11,18.0,False,False,3v14
+2023,1,First Round,Texas A&M,7,56,Penn St,10,76,Penn St,10,Texas A&M,7,Texas A&M,7,56,Penn St,10,76,132,-20,3,4.5,False,True,7v10
+2023,1,First Round,Texas,2,81,Colgate,15,61,Texas,2,Colgate,15,Texas,2,81,Colgate,15,61,142,20,13,22.0,False,False,2v15
+2023,1,First Round,Purdue,1,63,Fairleigh Dickinson,16,58,Purdue,1,Fairleigh Dickinson,16,Purdue,1,63,Fairleigh Dickinson,16,58,121,5,15,26.0,False,False,1v16
+2023,1,First Round,Memphis,8,59,FAU,9,66,FAU,9,Memphis,8,Memphis,8,59,FAU,9,66,125,-7,1,1.5,False,True,8v9
+2023,1,First Round,Duke,5,74,Oral Roberts,12,51,Duke,5,Oral Roberts,12,Duke,5,74,Oral Roberts,12,51,125,23,7,10.5,True,False,5v12
+2023,1,First Round,Tennessee,4,58,Louisiana,13,55,Tennessee,4,Louisiana,13,Tennessee,4,58,Louisiana,13,55,113,3,9,14.0,False,False,4v13
+2023,1,First Round,Kentucky,6,61,Providence,11,53,Kentucky,6,Providence,11,Kentucky,6,61,Providence,11,53,114,8,5,7.5,True,False,6v11
+2023,1,First Round,Kansas St,3,77,Montana St,14,65,Kansas St,3,Montana St,14,Kansas St,3,77,Montana St,14,65,142,12,11,18.0,False,False,3v14
+2023,1,First Round,Michigan St,7,72,USC,10,62,Michigan St,7,USC,10,Michigan St,7,72,USC,10,62,134,10,3,4.5,True,False,7v10
+2023,1,First Round,Marquette,2,78,Vermont,15,61,Marquette,2,Vermont,15,Marquette,2,78,Vermont,15,61,139,17,13,22.0,False,False,2v15
+2023,1,First Round,Kansas,1,96,Howard,16,68,Kansas,1,Howard,16,Kansas,1,96,Howard,16,68,164,28,15,26.0,True,False,1v16
+2023,1,First Round,Arkansas,8,73,Illinois,9,63,Arkansas,8,Illinois,9,Arkansas,8,73,Illinois,9,63,136,10,1,1.5,True,False,8v9
+2023,1,First Round,Saint Mary's,5,63,VCU,12,51,Saint Mary's,5,VCU,12,Saint Mary's,5,63,VCU,12,51,114,12,7,10.5,True,False,5v12
+2023,1,First Round,Connecticut,4,87,Iona,13,63,Connecticut,4,Iona,13,Connecticut,4,87,Iona,13,63,150,24,9,14.0,True,False,4v13
+2023,1,First Round,TCU,6,72,Arizona St,11,70,TCU,6,Arizona St,11,TCU,6,72,Arizona St,11,70,142,2,5,7.5,False,False,6v11
+2023,1,First Round,Gonzaga,3,82,Grand Canyon,14,70,Gonzaga,3,Grand Canyon,14,Gonzaga,3,82,Grand Canyon,14,70,152,12,11,18.0,False,False,3v14
+2023,1,First Round,Northwestern,7,75,Boise St,10,67,Northwestern,7,Boise St,10,Northwestern,7,75,Boise St,10,67,142,8,3,4.5,True,False,7v10
+2023,1,First Round,UCLA,2,86,UNC Asheville,15,53,UCLA,2,UNC Asheville,15,UCLA,2,86,UNC Asheville,15,53,139,33,13,22.0,True,False,2v15
+2023,2,Second Round,Alabama,1,73,Maryland,8,51,Alabama,1,Maryland,8,Alabama,1,73,Maryland,8,51,124,22,7,10.5,True,False,1v8
+2023,2,Second Round,San Diego St,5,75,Furman,13,52,San Diego St,5,Furman,13,San Diego St,5,75,Furman,13,52,127,23,8,12.0,True,False,5v13
+2023,2,Second Round,Creighton,6,85,Baylor,3,76,Creighton,6,Baylor,3,Baylor,3,76,Creighton,6,85,161,-9,3,4.5,False,True,3v6
+2023,2,Second Round,Arizona,2,55,Princeton,15,78,Princeton,15,Arizona,2,Arizona,2,55,Princeton,15,78,133,-23,13,22.0,False,True,2v15
+2023,2,Second Round,Houston,1,56,Iowa,8,57,Iowa,8,Houston,1,Houston,1,56,Iowa,8,57,113,-1,7,10.5,False,True,1v8
+2023,2,Second Round,Miami FL,5,85,Kent St,13,66,Miami FL,5,Kent St,13,Miami FL,5,85,Kent St,13,66,151,19,8,12.0,True,False,5v13
+2023,2,Second Round,Pittsburgh,11,59,Xavier,3,84,Xavier,3,Pittsburgh,11,Xavier,3,84,Pittsburgh,11,59,143,25,8,12.0,True,False,3v11
+2023,2,Second Round,Texas,2,71,Penn St,10,72,Penn St,10,Texas,2,Texas,2,71,Penn St,10,72,143,-1,8,12.0,False,True,2v10
+2023,2,Second Round,Purdue,1,76,FAU,9,78,FAU,9,Purdue,1,Purdue,1,76,FAU,9,78,154,-2,8,12.0,False,True,1v9
+2023,2,Second Round,Duke,5,64,Tennessee,4,65,Tennessee,4,Duke,5,Tennessee,4,65,Duke,5,64,129,1,1,1.5,False,False,4v5
+2023,2,Second Round,Kentucky,6,68,Kansas St,3,75,Kansas St,3,Kentucky,6,Kansas St,3,75,Kentucky,6,68,143,7,3,4.5,True,False,3v6
+2023,2,Second Round,Marquette,2,67,Michigan St,7,69,Michigan St,7,Marquette,2,Marquette,2,67,Michigan St,7,69,136,-2,5,7.5,False,True,2v7
+2023,2,Second Round,Kansas,1,61,Arkansas,8,72,Arkansas,8,Kansas,1,Kansas,1,61,Arkansas,8,72,133,-11,7,10.5,False,True,1v8
+2023,2,Second Round,Saint Mary's,5,60,Connecticut,4,70,Connecticut,4,Saint Mary's,5,Connecticut,4,70,Saint Mary's,5,60,130,10,1,1.5,True,False,4v5
+2023,2,Second Round,TCU,6,52,Gonzaga,3,84,Gonzaga,3,TCU,6,Gonzaga,3,84,TCU,6,52,136,32,3,4.5,True,False,3v6
+2023,2,Second Round,Northwestern,7,65,UCLA,2,68,UCLA,2,Northwestern,7,UCLA,2,68,Northwestern,7,65,133,3,5,7.5,False,False,2v7
+2023,3,Sweet 16,Alabama,1,73,San Diego St,5,71,Alabama,1,San Diego St,5,Alabama,1,73,San Diego St,5,71,144,2,4,6.0,False,False,1v5
+2023,3,Sweet 16,Creighton,6,72,Princeton,15,66,Creighton,6,Princeton,15,Creighton,6,72,Princeton,15,66,138,6,9,14.0,False,False,6v15
+2023,3,Sweet 16,Miami FL,5,58,Houston,5,56,Miami FL,5,Houston,5,Miami FL,5,58,Houston,5,56,114,2,0,0.0,True,False,5v5
+2023,3,Sweet 16,Xavier,3,62,Penn St,10,51,Xavier,3,Penn St,10,Xavier,3,62,Penn St,10,51,113,11,7,10.5,True,False,3v10
+2023,3,Sweet 16,FAU,9,62,Tennessee,4,55,FAU,9,Tennessee,4,Tennessee,4,55,FAU,9,62,117,-7,5,7.5,False,True,4v9
+2023,3,Sweet 16,Kansas St,3,67,Michigan St,7,50,Kansas St,3,Michigan St,7,Kansas St,3,67,Michigan St,7,50,117,17,4,6.0,True,False,3v7
+2023,3,Sweet 16,Connecticut,4,82,Arkansas,8,52,Connecticut,4,Arkansas,8,Connecticut,4,82,Arkansas,8,52,134,30,4,6.0,True,False,4v8
+2023,3,Sweet 16,Gonzaga,3,79,UCLA,2,76,Gonzaga,3,UCLA,2,UCLA,2,76,Gonzaga,3,79,155,-3,1,1.5,False,True,2v3
+2023,4,Elite 8,Alabama,1,79,Creighton,6,72,Alabama,1,Creighton,6,Alabama,1,79,Creighton,6,72,151,7,5,7.5,False,False,1v6
+2023,4,Elite 8,Miami FL,5,72,Xavier,3,56,Miami FL,5,Xavier,3,Xavier,3,56,Miami FL,5,72,128,-16,2,3.0,False,True,3v5
+2023,4,Elite 8,FAU,9,79,Kansas St,3,76,FAU,9,Kansas St,3,Kansas St,3,76,FAU,9,79,155,-3,6,9.0,False,True,3v9
+2023,4,Elite 8,Connecticut,4,82,Gonzaga,3,54,Connecticut,4,Gonzaga,3,Gonzaga,3,54,Connecticut,4,82,136,-28,1,1.5,False,True,3v4
+2023,5,Final Four,San Diego St,5,72,FAU,9,71,San Diego St,5,FAU,9,San Diego St,5,72,FAU,9,71,143,1,4,6.0,False,False,5v9
+2023,5,Final Four,Connecticut,4,72,Miami FL,5,59,Connecticut,4,Miami FL,5,Connecticut,4,72,Miami FL,5,59,131,13,1,1.5,True,False,4v5
+2023,6,Championship,Connecticut,4,76,San Diego St,5,59,Connecticut,4,San Diego St,5,Connecticut,4,76,San Diego St,5,59,135,17,1,1.5,True,False,4v5
+2024,1,First Round,Houston,1,62,Longwood,16,52,Houston,1,Longwood,16,Houston,1,62,Longwood,16,52,114,10,15,26.0,False,False,1v16
+2024,1,First Round,Nebraska,8,43,Texas A&M,9,98,Texas A&M,9,Nebraska,8,Nebraska,8,43,Texas A&M,9,98,141,-55,1,1.5,False,True,8v9
+2024,1,First Round,Wisconsin,5,87,James Madison,12,69,Wisconsin,5,James Madison,12,Wisconsin,5,87,James Madison,12,69,156,18,7,10.5,True,False,5v12
+2024,1,First Round,Duke,4,64,Vermont,13,47,Duke,4,Vermont,13,Duke,4,64,Vermont,13,47,111,17,9,14.0,True,False,4v13
+2024,1,First Round,Texas Tech,6,56,NC State,11,80,NC State,11,Texas Tech,6,Texas Tech,6,56,NC State,11,80,136,-24,5,7.5,False,True,6v11
+2024,1,First Round,Kentucky,3,85,Oakland,14,89,Oakland,14,Kentucky,3,Kentucky,3,85,Oakland,14,89,174,-4,11,18.0,False,True,3v14
+2024,1,First Round,Florida,7,83,Colorado,10,86,Colorado,10,Florida,7,Florida,7,83,Colorado,10,86,169,-3,3,4.5,False,True,7v10
+2024,1,First Round,Marquette,2,87,Western Kentucky,15,69,Marquette,2,Western Kentucky,15,Marquette,2,87,Western Kentucky,15,69,156,18,13,22.0,False,False,2v15
+2024,1,First Round,UConn,1,91,Stetson,16,52,UConn,1,Stetson,16,UConn,1,91,Stetson,16,52,143,39,15,26.0,True,False,1v16
+2024,1,First Round,FAU,8,67,Northwestern,9,68,Northwestern,9,FAU,8,FAU,8,67,Northwestern,9,68,135,-1,1,1.5,False,True,8v9
+2024,1,First Round,San Diego St,5,69,UAB,12,65,San Diego St,5,UAB,12,San Diego St,5,69,UAB,12,65,134,4,7,10.5,False,False,5v12
+2024,1,First Round,Auburn,4,76,Yale,13,78,Yale,13,Auburn,4,Auburn,4,76,Yale,13,78,154,-2,9,14.0,False,True,4v13
+2024,1,First Round,BYU,6,61,Duquesne,11,71,Duquesne,11,BYU,6,BYU,6,61,Duquesne,11,71,132,-10,5,7.5,False,True,6v11
+2024,1,First Round,Illinois,3,85,Morehead St,14,69,Illinois,3,Morehead St,14,Illinois,3,85,Morehead St,14,69,154,16,11,18.0,False,False,3v14
+2024,1,First Round,Washington St,7,55,Drake,10,53,Washington St,7,Drake,10,Washington St,7,55,Drake,10,53,108,2,3,4.5,False,False,7v10
+2024,1,First Round,Iowa St,2,79,South Dakota St,15,56,Iowa St,2,South Dakota St,15,Iowa St,2,79,South Dakota St,15,56,135,23,13,22.0,True,False,2v15
+2024,1,First Round,North Carolina,1,90,Wagner,16,62,North Carolina,1,Wagner,16,North Carolina,1,90,Wagner,16,62,152,28,15,26.0,True,False,1v16
+2024,1,First Round,Mississippi St,8,63,Michigan St,9,69,Michigan St,9,Mississippi St,8,Mississippi St,8,63,Michigan St,9,69,132,-6,1,1.5,False,True,8v9
+2024,1,First Round,Saint Mary's,5,63,Grand Canyon,12,56,Saint Mary's,5,Grand Canyon,12,Saint Mary's,5,63,Grand Canyon,12,56,119,7,7,10.5,False,False,5v12
+2024,1,First Round,Alabama,4,109,Charleston,13,96,Alabama,4,Charleston,13,Alabama,4,109,Charleston,13,96,205,13,9,14.0,False,False,4v13
+2024,1,First Round,Clemson,6,77,New Mexico,11,56,Clemson,6,New Mexico,11,Clemson,6,77,New Mexico,11,56,133,21,5,7.5,True,False,6v11
+2024,1,First Round,Baylor,3,56,Colgate,14,67,Colgate,14,Baylor,3,Baylor,3,56,Colgate,14,67,123,-11,11,18.0,False,True,3v14
+2024,1,First Round,Dayton,7,56,Nevada,10,63,Nevada,10,Dayton,7,Dayton,7,56,Nevada,10,63,119,-7,3,4.5,False,True,7v10
+2024,1,First Round,Arizona,2,78,Long Beach St,15,57,Arizona,2,Long Beach St,15,Arizona,2,78,Long Beach St,15,57,135,21,13,22.0,False,False,2v15
+2024,1,First Round,Purdue,1,78,Grambling,16,50,Purdue,1,Grambling,16,Purdue,1,78,Grambling,16,50,128,28,15,26.0,True,False,1v16
+2024,1,First Round,Utah St,8,55,TCU,9,69,TCU,9,Utah St,8,Utah St,8,55,TCU,9,69,124,-14,1,1.5,False,True,8v9
+2024,1,First Round,Gonzaga,5,86,McNeese,12,65,Gonzaga,5,McNeese,12,Gonzaga,5,86,McNeese,12,65,151,21,7,10.5,True,False,5v12
+2024,1,First Round,Kansas,4,93,Samford,13,89,Kansas,4,Samford,13,Kansas,4,93,Samford,13,89,182,4,9,14.0,False,False,4v13
+2024,1,First Round,South Carolina,6,65,Oregon,11,87,Oregon,11,South Carolina,6,South Carolina,6,65,Oregon,11,87,152,-22,5,7.5,False,True,6v11
+2024,1,First Round,Creighton,3,85,Akron,14,45,Creighton,3,Akron,14,Creighton,3,85,Akron,14,45,130,40,11,18.0,True,False,3v14
+2024,1,First Round,Texas,7,56,Colorado St,10,67,Colorado St,10,Texas,7,Texas,7,56,Colorado St,10,67,123,-11,3,4.5,False,True,7v10
+2024,1,First Round,Tennessee,2,92,Saint Peter's,15,62,Tennessee,2,Saint Peter's,15,Tennessee,2,92,Saint Peter's,15,62,154,30,13,22.0,True,False,2v15
+2024,2,Second Round,Houston,1,65,Texas A&M,9,64,Houston,1,Texas A&M,9,Houston,1,65,Texas A&M,9,64,129,1,8,12.0,False,False,1v9
+2024,2,Second Round,Wisconsin,5,41,Duke,4,64,Duke,4,Wisconsin,5,Duke,4,64,Wisconsin,5,41,105,23,1,1.5,True,False,4v5
+2024,2,Second Round,NC State,11,74,Oakland,14,53,NC State,11,Oakland,14,NC State,11,74,Oakland,14,53,127,21,3,4.5,True,False,11v14
+2024,2,Second Round,Colorado,10,57,Marquette,2,81,Marquette,2,Colorado,10,Marquette,2,81,Colorado,10,57,138,24,8,12.0,True,False,2v10
+2024,2,Second Round,UConn,1,75,Northwestern,9,58,UConn,1,Northwestern,9,UConn,1,75,Northwestern,9,58,133,17,8,12.0,True,False,1v9
+2024,2,Second Round,San Diego St,5,60,Yale,13,57,San Diego St,5,Yale,13,San Diego St,5,60,Yale,13,57,117,3,8,12.0,False,False,5v13
+2024,2,Second Round,Duquesne,11,58,Illinois,3,89,Illinois,3,Duquesne,11,Illinois,3,89,Duquesne,11,58,147,31,8,12.0,True,False,3v11
+2024,2,Second Round,Washington St,7,42,Iowa St,2,67,Iowa St,2,Washington St,7,Iowa St,2,67,Washington St,7,42,109,25,5,7.5,True,False,2v7
+2024,2,Second Round,North Carolina,1,85,Michigan St,9,69,North Carolina,1,Michigan St,9,North Carolina,1,85,Michigan St,9,69,154,16,8,12.0,True,False,1v9
+2024,2,Second Round,Saint Mary's,5,55,Alabama,4,89,Alabama,4,Saint Mary's,5,Alabama,4,89,Saint Mary's,5,55,144,34,1,1.5,True,False,4v5
+2024,2,Second Round,Clemson,6,72,Baylor,3,56,Clemson,6,Baylor,3,Baylor,3,56,Clemson,6,72,128,-16,3,4.5,False,True,3v6
+2024,2,Second Round,Nevada,10,57,Arizona,2,85,Arizona,2,Nevada,10,Arizona,2,85,Nevada,10,57,142,28,8,12.0,True,False,2v10
+2024,2,Second Round,Purdue,1,78,TCU,9,50,Purdue,1,TCU,9,Purdue,1,78,TCU,9,50,128,28,8,12.0,True,False,1v9
+2024,2,Second Round,Gonzaga,5,82,Kansas,4,84,Kansas,4,Gonzaga,5,Kansas,4,84,Gonzaga,5,82,166,2,1,1.5,True,False,4v5
+2024,2,Second Round,Oregon,11,52,Creighton,3,86,Creighton,3,Oregon,11,Creighton,3,86,Oregon,11,52,138,34,8,12.0,True,False,3v11
+2024,2,Second Round,Colorado St,10,56,Tennessee,2,75,Tennessee,2,Colorado St,10,Tennessee,2,75,Colorado St,10,56,131,19,8,12.0,True,False,2v10
+2024,3,Sweet 16,Houston,1,65,Duke,4,51,Houston,1,Duke,4,Houston,1,65,Duke,4,51,116,14,3,4.5,True,False,1v4
+2024,3,Sweet 16,NC State,11,76,Marquette,2,64,NC State,11,Marquette,2,Marquette,2,64,NC State,11,76,140,-12,9,14.0,False,True,2v11
+2024,3,Sweet 16,UConn,1,82,San Diego St,5,52,UConn,1,San Diego St,5,UConn,1,82,San Diego St,5,52,134,30,4,6.0,True,False,1v5
+2024,3,Sweet 16,Illinois,3,72,Iowa St,2,82,Iowa St,2,Illinois,3,Iowa St,2,82,Illinois,3,72,154,10,1,1.5,True,False,2v3
+2024,3,Sweet 16,North Carolina,1,72,Alabama,4,89,Alabama,4,North Carolina,1,North Carolina,1,72,Alabama,4,89,161,-17,3,4.5,False,True,1v4
+2024,3,Sweet 16,Clemson,6,60,Arizona,2,77,Arizona,2,Clemson,6,Arizona,2,77,Clemson,6,60,137,17,4,6.0,True,False,2v6
+2024,3,Sweet 16,Purdue,1,80,Kansas,4,68,Purdue,1,Kansas,4,Purdue,1,80,Kansas,4,68,148,12,3,4.5,True,False,1v4
+2024,3,Sweet 16,Creighton,3,55,Tennessee,2,76,Tennessee,2,Creighton,3,Tennessee,2,76,Creighton,3,55,131,21,1,1.5,True,False,2v3
+2024,4,Elite 8,Houston,1,54,NC State,11,65,NC State,11,Houston,1,Houston,1,54,NC State,11,65,119,-11,10,16.0,False,True,1v11
+2024,4,Elite 8,UConn,1,77,Iowa St,2,52,UConn,1,Iowa St,2,UConn,1,77,Iowa St,2,52,129,25,1,1.5,True,False,1v2
+2024,4,Elite 8,Alabama,4,89,Arizona,2,72,Alabama,4,Arizona,2,Arizona,2,72,Alabama,4,89,161,-17,2,3.0,False,True,2v4
+2024,4,Elite 8,Purdue,1,72,Tennessee,2,66,Purdue,1,Tennessee,2,Purdue,1,72,Tennessee,2,66,138,6,1,1.5,True,False,1v2
+2024,5,Final Four,NC State,11,63,Purdue,1,67,Purdue,1,NC State,11,Purdue,1,67,NC State,11,63,130,4,10,16.0,False,False,1v11
+2024,5,Final Four,UConn,1,86,Alabama,4,72,UConn,1,Alabama,4,UConn,1,86,Alabama,4,72,158,14,3,4.5,True,False,1v4
+2024,6,Championship,UConn,1,75,Purdue,1,60,UConn,1,Purdue,1,UConn,1,75,Purdue,1,60,135,15,0,0.0,True,False,1v1
+2025,1,First Round,Auburn,1,74,Alabama St,16,46,Auburn,1,Alabama St,16,Auburn,1,74,Alabama St,16,46,120,28,15,26.0,True,False,1v16
+2025,1,First Round,Louisville,8,82,Creighton,9,67,Louisville,8,Creighton,9,Louisville,8,82,Creighton,9,67,149,15,1,1.5,True,False,8v9
+2025,1,First Round,Michigan,5,78,UC San Diego,12,53,Michigan,5,UC San Diego,12,Michigan,5,78,UC San Diego,12,53,131,25,7,10.5,True,False,5v12
+2025,1,First Round,Texas A&M,4,56,Yale,13,68,Yale,13,Texas A&M,4,Texas A&M,4,56,Yale,13,68,124,-12,9,14.0,False,True,4v13
+2025,1,First Round,Ole Miss,6,59,North Carolina,11,63,North Carolina,11,Ole Miss,6,Ole Miss,6,59,North Carolina,11,63,122,-4,5,7.5,False,True,6v11
+2025,1,First Round,Iowa St,3,77,Lipscomb,14,56,Iowa St,3,Lipscomb,14,Iowa St,3,77,Lipscomb,14,56,133,21,11,18.0,True,False,3v14
+2025,1,First Round,St. John's,7,80,Vanderbilt,10,57,St. John's,7,Vanderbilt,10,St. John's,7,80,Vanderbilt,10,57,137,23,3,4.5,True,False,7v10
+2025,1,First Round,Michigan St,2,75,Bryant,15,48,Michigan St,2,Bryant,15,Michigan St,2,75,Bryant,15,48,123,27,13,22.0,True,False,2v15
+2025,1,First Round,Duke,1,89,American,16,42,Duke,1,American,16,Duke,1,89,American,16,42,131,47,15,26.0,True,False,1v16
+2025,1,First Round,Mississippi St,8,58,Baylor,9,72,Baylor,9,Mississippi St,8,Mississippi St,8,58,Baylor,9,72,130,-14,1,1.5,False,True,8v9
+2025,1,First Round,Oregon,5,72,Liberty,12,64,Oregon,5,Liberty,12,Oregon,5,72,Liberty,12,64,136,8,7,10.5,False,False,5v12
+2025,1,First Round,Arizona,4,73,Akron,13,55,Arizona,4,Akron,13,Arizona,4,73,Akron,13,55,128,18,9,14.0,True,False,4v13
+2025,1,First Round,Illinois,6,78,Texas,11,63,Illinois,6,Texas,11,Illinois,6,78,Texas,11,63,141,15,5,7.5,True,False,6v11
+2025,1,First Round,Wisconsin,3,67,Montana,14,54,Wisconsin,3,Montana,14,Wisconsin,3,67,Montana,14,54,121,13,11,18.0,False,False,3v14
+2025,1,First Round,UCLA,7,65,UCSD,10,51,UCLA,7,UCSD,10,UCLA,7,65,UCSD,10,51,116,14,3,4.5,True,False,7v10
+2025,1,First Round,Alabama,2,85,Robert Morris,15,47,Alabama,2,Robert Morris,15,Alabama,2,85,Robert Morris,15,47,132,38,13,22.0,True,False,2v15
+2025,1,First Round,Florida,1,81,Norfolk St,16,54,Florida,1,Norfolk St,16,Florida,1,81,Norfolk St,16,54,135,27,15,26.0,True,False,1v16
+2025,1,First Round,UConn,8,73,Oklahoma,9,66,UConn,8,Oklahoma,9,UConn,8,73,Oklahoma,9,66,139,7,1,1.5,True,False,8v9
+2025,1,First Round,Memphis,5,68,Colorado St,12,61,Memphis,5,Colorado St,12,Memphis,5,68,Colorado St,12,61,129,7,7,10.5,False,False,5v12
+2025,1,First Round,Maryland,4,69,Grand Canyon,13,53,Maryland,4,Grand Canyon,13,Maryland,4,69,Grand Canyon,13,53,122,16,9,14.0,True,False,4v13
+2025,1,First Round,Missouri,6,62,Drake,11,71,Drake,11,Missouri,6,Missouri,6,62,Drake,11,71,133,-9,5,7.5,False,True,6v11
+2025,1,First Round,Texas Tech,3,82,UNC Wilmington,14,55,Texas Tech,3,UNC Wilmington,14,Texas Tech,3,82,UNC Wilmington,14,55,137,27,11,18.0,True,False,3v14
+2025,1,First Round,Kansas,7,68,Arkansas,10,73,Arkansas,10,Kansas,7,Kansas,7,68,Arkansas,10,73,141,-5,3,4.5,False,True,7v10
+2025,1,First Round,St. John's,2,79,Nebraska Omaha,15,52,St. John's,2,Nebraska Omaha,15,St. John's,2,79,Nebraska Omaha,15,52,131,27,13,22.0,True,False,2v15
+2025,1,First Round,Houston,1,82,SIU Edwardsville,16,48,Houston,1,SIU Edwardsville,16,Houston,1,82,SIU Edwardsville,16,48,130,34,15,26.0,True,False,1v16
+2025,1,First Round,Gonzaga,8,69,Georgia,9,65,Gonzaga,8,Georgia,9,Gonzaga,8,69,Georgia,9,65,134,4,1,1.5,True,False,8v9
+2025,1,First Round,Clemson,5,73,McNeese,12,67,Clemson,5,McNeese,12,Clemson,5,73,McNeese,12,67,140,6,7,10.5,False,False,5v12
+2025,1,First Round,Purdue,4,77,High Point,13,56,Purdue,4,High Point,13,Purdue,4,77,High Point,13,56,133,21,9,14.0,True,False,4v13
+2025,1,First Round,BYU,6,64,VCU,11,73,VCU,11,BYU,6,BYU,6,64,VCU,11,73,137,-9,5,7.5,False,True,6v11
+2025,1,First Round,Marquette,3,80,New Mexico St,14,58,Marquette,3,New Mexico St,14,Marquette,3,80,New Mexico St,14,58,138,22,11,18.0,True,False,3v14
+2025,1,First Round,Kansas St,7,61,Butler,10,55,Kansas St,7,Butler,10,Kansas St,7,61,Butler,10,55,116,6,3,4.5,True,False,7v10
+2025,1,First Round,Tennessee,2,88,Wofford,15,53,Tennessee,2,Wofford,15,Tennessee,2,88,Wofford,15,53,141,35,13,22.0,True,False,2v15
